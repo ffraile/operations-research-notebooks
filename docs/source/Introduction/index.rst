@@ -1,24 +1,6 @@
 Introduction: Python Notebooks for Operations Research
 ======================================================
-This chapter covers some fundamentals of Jupyter Notebooks for Operations Research, Python programming, and basic tutorials and usage tips for two important libraries: Numpy and Matplotlib.
-
-Brief introduction to Jupyter Notebooks
-________________________________________
-`Jupyter Notebooks <https://jupyter.org/>`_ are great to share software and scientific results. In my opinion, the main advantages are:
-
-#. **Explainability**: Jupyter Notebooks combine software code together with rich multimedia descriptions. This allows researchers to **explain** their results, show exactly the code the have used, describe its fundamentals and its results. This narrative format helps the reader understand and in extension reuse scientific results.
-#. **Composability**: You can easily combine different Jupyter Notebooks into larger project.
-#. **Community Support**: There is a very large user community worldwide supporting Jupyter Notebooks.
-
-Also, there are a growing number of platforms and tools that support it off-the-shelf. Some examples that we will use during the course are:
-`Anaconda <https://www.anaconda.com/>`_, `Google Colabs <https://colab.research.google.com/>`_, `JupyterLab <https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo>`_, or `Pycharm <https://www.jetbrains.com/pycharm/>`_.
-
-From a very basic point of view, a Jupyter Notebook is a file that contains a sequence of **cells**. There are primarily two types of cells:
-
-*   **Code Cells**: Code cells contain code in a given programming language (for instance Python) that will be executed by an **interpreter** when we execute the Notebook. Code cells have an output section where we can see the result of the code cell. From this, there are two ways we can use a Notebook. We can *view* a Notebook using a viewer, which allows us to render the Notebook, but not to run the code cells. If we have an Interpreter at hand, we can also **run** the Notebook to let the interpreter run the code and update the results of code cells.
-*   **Markdown Cells**: Markdown cells use `Markdown Syntax <https://www.markdownguide.org/basic-syntax/>`_ to explain code cells using a rich language that allows us to include links, equations, images, any kind of resource we can think of to support our presentation.
-
-Based on these definitions, this chapter contains the Notebooks in the Table of Contents below.
+This chapter contains an introduction to Operations Research, and also covers the fundamentals of Python programming and Jupyter Notebooks used in the course, including basic tutorials and usage tips for two important libraries: Numpy and Matplotlib.
 
 Operations Research Introduction
 _________________________________
@@ -27,6 +9,10 @@ Motivation
 The main objective of operations research is to support decision making through methods and techniques based on the scientific method and mathematics.
 Formally, making a decision is the process of selecting the best alternative between a set of alternative options. Depending on the problem, there can be a finite set or an infinite set of alternative options.
 The connection between Operations Research and management is clear: Managers make decisions and in extension, decision making is strongly connected to management. From this perspective, Operations Research gathers a set of tools that identify the best (optimal) alternative in a systematic way, based on a set of assumptions that allows us to model the decision making process using the mathematical language.
+
+In a nutshell, the objective of OR is to find optimal solutions to **management problems** in the domain of **supply chain operations**, using **mathematical methods** and implement these methods using **computer science** (algorithms), as illustrated in the figure below.
+.. image:: img/OR_in_a_nutshell.png
+    :alt: OR in a nutshell: A combination of data science, computer science and supply chain management
 
 To provide a clear framework for the book, the scope of the problems that will be addressed relate to specific **management levels**, and **business processes**.
 
@@ -50,6 +36,8 @@ In the SCOR model, we identify six management processes:
 - **Enable**: And finally, enable processes which are associated with the management of the supply chain, that is the management of the relationships with our collaborators, both customers and suppliers.
 
 Operations Research provides tools to support decision making in these management processes. All the problems included in this interactive book can be mapped to the processes in the SCOR model.
+.. image:: img/scor.png
+    :alt: Supply Chain Operations Reference model (SCOR)
 
 Management levels
 ^^^^^^^^^^^^^^^^^^
@@ -63,7 +51,11 @@ Each level has its own responsabilities and all work towards the same goals, to 
 
 - **Operational level**: Finally, the operational level deals with intermediate-term decisions in processes, rather than business decisions. Operational management controls how the different processes, or the different units of an organisation implement the company´s strategic and tactical objectives. The operational level articulate specific processes and spans management decisions in smaller periods of time, from months to minutes. Consequently, they need to be revisited rather frequently.
 
+.. image:: img/decision_levels.png
+    :alt: Decision levels and time frames
+
 Operations Research provides tools to support decision making in any of the three levels, although the O in OR clearly refers to the operational level.
+
 
 Operations Research and Artificial Intelligence
 ________________________________________________
@@ -179,6 +171,24 @@ But, before we are able to implement this decision into the real world, it is im
 - Plausibility: Is the model consistent with available data?
 
 If we are satisfied with the answer to these questions, we are ready to implement the best alternative in the real world and monitor the results. This implementation can be automatic (taken by an autonomous system) or supervised (with human supervision).
+
+Brief introduction to Jupyter Notebooks
+________________________________________
+`Jupyter Notebooks <https://jupyter.org/>`_ are great to share software and scientific results. In my opinion, the main advantages are:
+
+#. **Explainability**: Jupyter Notebooks combine software code together with rich multimedia descriptions. This allows researchers to **explain** their results, show exactly the code the have used, describe its fundamentals and its results. This narrative format helps the reader understand and in extension reuse scientific results.
+#. **Composability**: You can easily combine different Jupyter Notebooks into larger project.
+#. **Community Support**: There is a very large user community worldwide supporting Jupyter Notebooks.
+
+Also, there are a growing number of platforms and tools that support it off-the-shelf. Some examples that we will use during the course are:
+`Anaconda <https://www.anaconda.com/>`_, `Google Colabs <https://colab.research.google.com/>`_, `JupyterLab <https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab/tree/demo>`_, or `Pycharm <https://www.jetbrains.com/pycharm/>`_.
+
+From a very basic point of view, a Jupyter Notebook is a file that contains a sequence of **cells**. There are primarily two types of cells:
+
+*   **Code Cells**: Code cells contain code in a given programming language (for instance Python) that will be executed by an **interpreter** when we execute the Notebook. Code cells have an output section where we can see the result of the code cell. From this, there are two ways we can use a Notebook. We can *view* a Notebook using a viewer, which allows us to render the Notebook, but not to run the code cells. If we have an Interpreter at hand, we can also **run** the Notebook to let the interpreter run the code and update the results of code cells.
+*   **Markdown Cells**: Markdown cells use `Markdown Syntax <https://www.markdownguide.org/basic-syntax/>`_ to explain code cells using a rich language that allows us to include links, equations, images, any kind of resource we can think of to support our presentation.
+
+Based on these definitions, this chapter contains the Notebooks in the Table of Contents below.
 
 Introduction to Python and Markdown
 ____________________________________
