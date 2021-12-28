@@ -59,8 +59,8 @@ nbsphinx_execute = 'never'
 sphinx_gallery_conf = {
   'binder': {
      # Required keys
-     'org': 'gitlab.com',
-     'repo': 'teaching_edem/operations_research',
+     'org': 'github.com',
+     'repo': 'ffraile/operations-research-notebooks',
      'branch': 'master',  # Can be any branch, tag, or commit hash. Use a branch that hosts your docs.
      'binderhub_url': 'https://mybinder.org',  # Any URL of a binderhub deployment. Must be full URL (e.g. https://mybinder.org).
      'dependencies': 'CLP/requirements',

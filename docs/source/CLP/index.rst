@@ -87,4 +87,4 @@ This section contains Python library tutorials:
     :glob:
     :titlesonly:
 
-    PuLP </CLP/tutorials/Python PuLP Tutorial>
+    PuLP </CLP/libraries/Python PuLP Tutorial>
