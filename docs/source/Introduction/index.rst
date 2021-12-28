@@ -185,7 +185,7 @@ ____________________________________
 The following Table of Contents provides access to different tutorials that introduce the basics of Python Programming, Markdown cell edition, and some of the main libraries that will be used throughout the course.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Contents:
     :glob:
     :titlesonly:
@@ -194,3 +194,5 @@ The following Table of Contents provides access to different tutorials that intr
     /Introduction/Numpy tutorial
     /Introduction/Matplotlib tutorial
     /Introduction/Working With Markdown Cells
+    /Introduction/Python tutorial II
+    /Introduction/Pandas tutorial

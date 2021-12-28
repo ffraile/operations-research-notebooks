@@ -17,13 +17,24 @@ The objective of this book is primarily to support the course of Operations Rese
 
    Introduction to Operations Research <Introduction/index.rst>
    Continuous Linear Programming <CLP/index.rst>
+   Mixed Integer Programming <MIP/index.rst>
+   Non-Linear Programming <NLP/index.rst>
+   Decision Theory <Decision Theory/index.rst>
+   Game Theory <Game Theory/index.rst>
+   Simulation <Simulation/index.rst>
+   Markov Chains <Markov Chains/index.rst>
 
-Indices and tables
+Search Page
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
+
+Bibliography
+==============
+The following books contain problems included in this interactive book:
+
+- `Operations Research Problems <https://www.springer.com/gp/book/9781447155768>`_
+- `Introduction to Operations Research with Python <https://github.com/benalexkeen/Introduction-to-linear-programming>`_
 
 Contributions
 ==============

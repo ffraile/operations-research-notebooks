@@ -17,6 +17,11 @@ This section contains some basic tutorials:
     :glob:
     :titlesonly:
 
+    Introduction to Combinatorial Optimization </MIP/tutorials/CO Intro>
+    Introduction to Mixed Integer Programming </MIP/tutorials/MIP Intro>
+    Transportation Problems </MIP/tutorials/Transportation Problem>
+    MIP with Python </MIP/tutorials/PuLP and Python MIP Tutorial>
+    Graph Theory tutorial: Routing </MIP/tutorials/Routing example>
 
 Exercises
 __________
@@ -32,11 +37,18 @@ In this section you have a collection of CLP problems sorted by difficulty:
     :glob:
     :titlesonly:
 
-    Tarmacking shifts (Easy modeling exercise) </MIP/exercises/Tarmacking Shifts>
-    Allocation Orders to Machines (Easy modeling exercise) <MIP/exercises/Allocating Orders to Machines>
-    Planning production and inventories (Normal modeling exercise) </MIP/exercises/Planning production and inventories>
-
-
+    Tarmacking shifts (Easy MIP modeling exercise) </MIP/exercises/Tarmacking Shifts>
+    Allocation Orders to Machines (Easy MIP modeling exercise) <MIP/exercises/Allocating Orders to Machines>
+    Planning production and inventories (Normal MIP modeling exercise) </MIP/exercises/Planning production and inventories>
+    Truck Deliveries (Easy MIP transportation problem modeling exercise) </MIP/exercises/Truck Deliveries>
+    Distribution Problem Example (Normal MIP modeling exercise) </MIP/exercises/Distribution Problem Example>
+    Transport Planning (Normal MIP modeling exercise) </MIP/exercises/Transport Planning>
+    Plastic Injection Production Planning (Hard MIP modeling exercise) </MIP/exercises/Plastic Injection Production Planning>
+    Machinery Transport Planning (normal graph theory exercise) </MIP/exercises/Machinery Transport Planning>
+    Overbooking (normal graph theory exercise) </MIP/exercises/Overbooking on Airlines>
+    Production Planning (normal graph theory exercise) </MIP/exercises/Production Planning>
+    Production Sequencing (normal graph theory) </MIP/exercises/Production Sequencing>
+    Planet Express Deliveries (normal transportation problem) </MIP/exercises/Planet Express Deliveries>
 
 Solved Exercises
 __________________
@@ -48,8 +60,15 @@ In this section you have the solution to the different exercises.
     :glob:
     :titlesonly:
 
-    Tarmacking shifts (Easy modeling exercise) </MIP/exercises/Tarmacking Shifts (Solved)>
-    Planning production and inventories (Normal modeling exercise) </MIP/exercises/Planning production and inventories (Solved)>
-    Allocation Orders to Machines (Easy modeling exercise) <MIP/exercises/Allocating Orders to Machines (Solved)>
-
-
+    Tarmacking shifts (Easy modeling exercise) </MIP/solved/Tarmacking Shifts (Solved)>
+    Planning production and inventories (Normal modeling exercise) </MIP/solved/Planning production and inventories (Solved)>
+    Allocation Orders to Machines (Easy modeling exercise) <MIP/solved/Allocating Orders to Machines (Solved)>
+    Truck Deliveries (Easy transport exercise) </MIP/solved/Truck Deliveries (Solved)>
+    Distribution Problem Example (Normal modeling exercise) </MIP/solved/Distribution Problem Example (Solved)>
+    Transport Planning (Normal modeling exercise) </MIP/solved/Transport Planning (Solved)>
+    Plastic Injection Production Planning (Hard MIP modeling exercise) </MIP/solved/Plastic Injection Production Planning>
+    Machinery Transport Planning (normal graph theory exercise) </MIP/solved/Machinery Transport Planning (Solved)>
+    Overbooking (normal graph theory exercise) </MIP/solved/Overbooking on Airlines (Solved)>
+    Production Planning (normal graph theory exercise) </MIP/solved/Production Planning (Solved)>
+    Production Sequencing (normal graph theory) </MIP/solved/Production Sequencing (Solved)>
+    Planet Express Deliveries (normal transportation problem) </MIP/solved/Planet Express Deliveries>

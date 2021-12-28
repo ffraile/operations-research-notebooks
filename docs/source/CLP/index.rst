@@ -34,6 +34,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     :titlesonly:
 
     All Gold Canyon (Easy modeling exercise) </CLP/exercises/All Gold Canyon>
+    The Good Carpenter (Easy modeling exercise) </CLP/exercises/The Good Carpenter>
     Ski Patrol (Easy modeling exercise) </CLP/exercises/Ski Patrol>
     Production Mix Problem (Easy modeling exercise) </CLP/exercises/Production Mix Problem>
     Making Chappie (Normal modeling exercise) </CLP/exercises/Making Chappie>
@@ -45,6 +46,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Resourcing Product Mix of Aluminium Windows (Normal modeling, programming, and analysis) </CLP/exercises/Manufacturing solar cell panels>
     Those damn interns (Normal analysis problem) </CLP/exercises/Those damn interns>
     A software bug (Normal analysis problem) </CLP/exercises/A software bug>
+    Invincible nutritional (Normal modeling and analysis) </CLP/exercises/Invincible>
     Chappie II (Hard modeling problem) </CLP/exercises/Chappie II>
 
 Solved Exercises
@@ -58,6 +60,7 @@ In this section you have the solution to the different exercises.
     :titlesonly:
 
     All Gold Canyon (Easy modeling exercise) </CLP/solved/All Gold (Model Solved)>
+    The Good Carpenter (Easy modeling exercise) </CLP/solved/The Good Carpenter (Solved)>
     Ski Patrol (Easy modeling exercise) </CLP/solved/Ski Patrol (Solved)>
     Production Mix Problem (Easy modeling exercise) </CLP/solved/Production Mix Problem (Solved)>
     Making Chappie (Normal modeling exercise, solved with the graphical method and CBC </CLP/solved/Making Chappie (Solved)>
@@ -71,5 +74,17 @@ In this section you have the solution to the different exercises.
     Resourcing Product Mix of Aluminium Windows (Normal Modeling, programming, and analysis. Solved with Gurobi) </CLP/solved/Manufacturing solar cell panels>
     Those damn interns (Normal analysis problem) </CLP/solved/Those damn interns (Solved)>
     A software bug (Normal analysis problem) <CLP/solved/A software bug (Solved)>
+    Invincible nutritional (Normal modeling and analysis) </CLP/solved/Invincible (Solved)>
     Chappie II (Hard Modeling and programming solved with CBC) </CLP/solved/Chappie II (Solved CBC)>
 
+Python libraries
+__________
+This section contains Python library tutorials:
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+    :glob:
+    :titlesonly:
+
+    PuLP </CLP/tutorials/Python PuLP Tutorial>
