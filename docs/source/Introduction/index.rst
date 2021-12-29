@@ -200,9 +200,9 @@ The following Table of Contents provides access to different tutorials that intr
     :glob:
     :titlesonly:
 
-    /Introduction/PythonTutorial
-    /Introduction/Numpy tutorial
-    /Introduction/Matplotlib tutorial
-    /Introduction/Working With Markdown Cells
-    /Introduction/Python tutorial II
-    /Introduction/Pandas tutorial
+    /Introduction/libraries/PythonTutorial
+    /Introduction/libraries/Numpy tutorial
+    /Introduction/libraries/Matplotlib tutorial
+    /Introduction/libraries/Working With Markdown Cells
+    /Introduction/libraries/Python tutorial II
+    /Introduction/libraries/Pandas tutorial
