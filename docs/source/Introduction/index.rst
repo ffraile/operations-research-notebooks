@@ -11,6 +11,7 @@ Formally, making a decision is the process of selecting the best alternative bet
 The connection between Operations Research and management is clear: Managers make decisions and in extension, decision making is strongly connected to management. From this perspective, Operations Research gathers a set of tools that identify the best (optimal) alternative in a systematic way, based on a set of assumptions that allows us to model the decision making process using the mathematical language.
 
 In a nutshell, the objective of OR is to find optimal solutions to **management problems** in the domain of **supply chain operations**, using **mathematical methods** and implement these methods using **computer science** (algorithms), as illustrated in the figure below.
+
 .. image:: img/OR_in_a_nutshell.png
     :alt: OR in a nutshell: A combination of data science, computer science and supply chain management
 
@@ -36,6 +37,7 @@ In the SCOR model, we identify six management processes:
 - **Enable**: And finally, enable processes which are associated with the management of the supply chain, that is the management of the relationships with our collaborators, both customers and suppliers.
 
 Operations Research provides tools to support decision making in these management processes. All the problems included in this interactive book can be mapped to the processes in the SCOR model.
+
 .. image:: img/scor.png
     :alt: Supply Chain Operations Reference model (SCOR)
 
