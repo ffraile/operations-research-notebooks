@@ -13,7 +13,7 @@ The connection between Operations Research and management is clear: Managers mak
 In a nutshell, the objective of OR is to find optimal solutions to **management problems** in the domain of **supply chain operations**, using **mathematical methods** and implement these methods using **computer science** (algorithms), as illustrated in the figure below.
 
 .. image:: img/OR_in_a_nutshell.png
-    :width: 350
+    :width: 350px
     :alt: OR in a nutshell: A combination of data science, computer science and supply chain management
 
 To provide a clear framework for the book, the scope of the problems that will be addressed relate to specific **management levels**, and **business processes**.
