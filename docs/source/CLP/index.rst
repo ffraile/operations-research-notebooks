@@ -65,19 +65,17 @@ In this section you have the solution to the different exercises.
     The Good Carpenter (Easy modeling exercise) </CLP/solved/The Good Carpenter (Solved)>
     Ski Patrol (Easy modeling exercise) </CLP/solved/Ski Patrol (Solved)>
     Production Mix Problem (Easy modeling exercise) </CLP/solved/Production Mix Problem (Solved)>
-    Making Chappie (Normal modeling exercise, solved with the graphical method and CBC </CLP/solved/Making Chappie (Solved)>
-    Blending Craft Beer (Normal modeling exercise, solved with CBC) </CLP/solved/Blending Craft Beer (Solved CBC)>
-    Blending Craft Beer (Normal modeling exercise, solved with Gurobi) </CLP/solved/Blending Craft Beer (Solved GRB)>
-    Blending Problem (Normal modeling and programming with PuLP) </CLP/solved/Blending Problem (Solved)>
-    Petroleum Blending (Normal modeling exercise, solved with CBC) </CLP/solved/Petroleum Blending (Solved)>
+    Making Chappie (Normal modeling exercise) </CLP/solved/Making Chappie (Solved)>
+    Blending Craft Beer (Normal modeling exercise) </CLP/solved/Blending Craft Beer (Solved)>
+    Blending Problem (Normal modeling exercise) </CLP/solved/Blending Problem (Solved)>
+    Petroleum Blending (Normal modeling exercise) </CLP/solved/Petroleum Blending (Solved)>
     Fasting diet (Easy Modeling exercise) </CLP/solved/Fasting Diet (Solved)>
     Bonus and merits (Normal modeling exercise)
-    Resourcing Product Mix of Aluminium Windows (Normal modeling, programming, and analysis. Solved with CBC) </CLP/solved/Manufacturing solar cell panels (Solved CBC)>
-    Resourcing Product Mix of Aluminium Windows (Normal Modeling, programming, and analysis. Solved with Gurobi) </CLP/solved/Manufacturing solar cell panels>
+    Resourcing Product Mix of Aluminium Windows (Normal modeling) </CLP/solved/Manufacturing solar cell panels (Solved)>
     Those damn interns (Normal analysis problem) </CLP/solved/Those damn interns (Solved)>
     A software bug (Normal analysis problem) <CLP/solved/A software bug (Solved)>
     Invincible nutritional (Normal modeling and analysis) </CLP/solved/Invincible (Solved)>
-    Chappie II (Hard Modeling and programming solved with CBC) </CLP/solved/Chappie II (Solved CBC)>
+    Chappie II (Hard Modeling exercise) </CLP/solved/Chappie II (Solved)>
 
 Python libraries
 __________
