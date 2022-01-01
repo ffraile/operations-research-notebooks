@@ -37,6 +37,6 @@ if __name__ == '__main__':
 
             # print(template_file)
             # print(file_content)
-            with open(template_file, 'w') as out_file:
+            with open(template_file, 'w', encoding="utf8") as out_file:
                 out_file.write(file_content)
                 out_file.close()

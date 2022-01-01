@@ -13,6 +13,7 @@ The connection between Operations Research and management is clear: Managers mak
 In a nutshell, the objective of OR is to find optimal solutions to **management problems** in the domain of **supply chain operations**, using **mathematical methods** and implement these methods using **computer science** (algorithms), as illustrated in the figure below.
 
 .. image:: img/OR_in_a_nutshell.png
+    :width: 350
     :alt: OR in a nutshell: A combination of data science, computer science and supply chain management
 
 To provide a clear framework for the book, the scope of the problems that will be addressed relate to specific **management levels**, and **business processes**.
@@ -54,6 +55,7 @@ Each level has its own responsabilities and all work towards the same goals, to 
 - **Operational level**: Finally, the operational level deals with intermediate-term decisions in processes, rather than business decisions. Operational management controls how the different processes, or the different units of an organisation implement the company´s strategic and tactical objectives. The operational level articulate specific processes and spans management decisions in smaller periods of time, from months to minutes. Consequently, they need to be revisited rather frequently.
 
 .. image:: img/decision_levels.png
+    :width: 200
     :alt: Decision levels and time frames
 
 Operations Research provides tools to support decision making in any of the three levels, although the O in OR clearly refers to the operational level.
