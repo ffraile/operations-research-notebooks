@@ -19,7 +19,7 @@ This section contains some basic tutorials:
     Interactive Graphic Solution </CLP/tutorials/Graphic solution - interactive>
     Simplex, Graphic explanation </CLP/tutorials/Simplex, Graphic explanation>
     Sensitivity - Algebraic explanation </CLP/tutorials/Sensitivity - Algebraic explanation>
-    Interactive Sensitivity Analysis <Sensitivity analysis - interactive>
+    Interactive Sensitivity Analysis </CLP/tutorials/Sensitivity analysis - interactive>
 
 Exercises
 __________
@@ -70,15 +70,15 @@ In this section you have the solution to the different exercises.
     Blending Problem (Normal modeling exercise) </CLP/solved/Blending Problem (Solved)>
     Petroleum Blending (Normal modeling exercise) </CLP/solved/Petroleum Blending (Solved)>
     Fasting diet (Easy Modeling exercise) </CLP/solved/Fasting Diet (Solved)>
-    Bonus and merits (Normal modeling exercise)
+    Bonus and merits (Normal modeling exercise) </CLP/solved/Bonus and merits (Solved)>
     Resourcing Product Mix of Aluminium Windows (Normal modeling) </CLP/solved/Manufacturing solar cell panels (Solved)>
     Those damn interns (Normal analysis problem) </CLP/solved/Those damn interns (Solved)>
-    A software bug (Normal analysis problem) <CLP/solved/A software bug (Solved)>
+    A software bug (Normal analysis problem) </CLP/solved/A software bug (Solved)>
     Invincible nutritional (Normal modeling and analysis) </CLP/solved/Invincible (Solved)>
     Chappie II (Hard Modeling exercise) </CLP/solved/Chappie II (Solved)>
 
 Python libraries
-__________
+________________
 This section contains Python library tutorials:
 
 .. toctree::
