@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'operations_research'
+project = 'operations_research_notebooks'
 copyright = '2020, Francisco Fraile'
 author = 'Francisco Fraile'
 
 # The full version, including alpha/beta/rc tags
-release = '2020-12-30'
+release = 'v2'
 
 
 # -- General configuration ---------------------------------------------------
