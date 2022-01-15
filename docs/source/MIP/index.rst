@@ -18,9 +18,9 @@ This section contains some basic tutorials:
     :titlesonly:
 
     Introduction to Combinatorial Optimization </MIP/tutorials/CO Intro>
+    Solving Sudokus with a Genetic Algorithm </MIP/tutorials/sudoku GA>
     Introduction to Mixed Integer Programming </MIP/tutorials/MIP Intro>
     Transportation Problems </MIP/tutorials/Transportation Problem>
-    MIP with Python </MIP/tutorials/PuLP and Python MIP Tutorial>
     Graph Theory tutorial: Routing </MIP/tutorials/Routing example>
 
 Exercises
@@ -72,3 +72,15 @@ In this section you have the solution to the different exercises.
     Production Planning (normal graph theory exercise) </MIP/solved/Production Planning (Solved)>
     Production Sequencing (normal graph theory) </MIP/solved/Production Sequencing (Solved)>
     Planet Express Deliveries (normal transportation problem) </MIP/solved/Planet Express Deliveries>
+
+Python libraries
+________________
+This section contains Python library tutorials:
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+    :glob:
+    :titlesonly:
+
+    MIP with Python </MIP/tutorials/PuLP and Python MIP Tutorial>
