@@ -48,6 +48,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Fasting diet (Easy modeling exercise) </CLP/exercises/Fasting Diet>
     Bonus and merits (Normal modeling exercise) </CLP/exercises/Bonus and merits>
     Resourcing Product Mix of Aluminium Windows (Normal modeling, programming, and analysis) </CLP/exercises/Manufacturing solar cell panels>
+    The chilling adventures of Sabrina (Normal modeling problem) </CLP/exercises/The chilling adventures of Sabrina>
     Those damn interns (Normal analysis problem) </CLP/exercises/Those damn interns>
     A software bug (Normal analysis problem) </CLP/exercises/A software bug>
     Invincible nutritional (Normal modeling and analysis) </CLP/exercises/Invincible>
