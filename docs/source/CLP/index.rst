@@ -76,6 +76,7 @@ In this section you have the solution to the different exercises.
     Fasting diet (Easy Modeling exercise) </CLP/solved/Fasting Diet (Solved)>
     Bonus and merits (Normal modeling exercise) </CLP/solved/Bonus and merits (Solved)>
     Resourcing Product Mix of Aluminium Windows (Normal modeling) </CLP/solved/Manufacturing solar cell panels (Solved)>
+    The chilling adventures of Sabrina (Normal modeling problem) </CLP/solved/The chilling adventures of Sabrina (Solved)>
     Those damn interns (Normal analysis problem) </CLP/solved/Those damn interns (Solved)>
     A software bug (Normal analysis problem) </CLP/solved/A software bug (Solved)>
     Invincible nutritional (Normal modeling and analysis) </CLP/solved/Invincible (Solved)>
