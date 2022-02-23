@@ -39,7 +39,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     :titlesonly:
 
     Tarmacking shifts (Easy MIP modeling exercise) </MIP/exercises/Tarmacking Shifts>
-    Allocation Orders to Machines (Easy MIP modeling exercise) <MIP/exercises/Allocating Orders to Machines>
+    Allocation Orders to Machines (Easy MIP modeling exercise) </MIP/exercises/Allocating Orders to Machines>
     Planning production and inventories (Normal MIP modeling exercise) </MIP/exercises/Planning production and inventories>
     Truck Deliveries (Easy MIP transportation problem modeling exercise) </MIP/exercises/Truck Deliveries>
     Distribution Problem Example (Normal MIP modeling exercise) </MIP/exercises/Distribution Problem Example>
@@ -63,7 +63,7 @@ In this section you have the solution to the different exercises.
 
     Tarmacking shifts (Easy modeling exercise) </MIP/solved/Tarmacking Shifts (Solved)>
     Planning production and inventories (Normal modeling exercise) </MIP/solved/Planning production and inventories (Solved)>
-    Allocation Orders to Machines (Easy modeling exercise) <MIP/solved/Allocating Orders to Machines (Solved)>
+    Allocation Orders to Machines (Easy modeling exercise) </MIP/solved/Allocating Orders to Machines (Solved)>
     Truck Deliveries (Easy transport exercise) </MIP/solved/Truck Deliveries (Solved)>
     Distribution Problem Example (Normal modeling exercise) </MIP/solved/Distribution Problem Example (Solved)>
     Transport Planning (Normal modeling exercise) </MIP/solved/Transport Planning (Solved)>
