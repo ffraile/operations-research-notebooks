@@ -85,3 +85,4 @@ This section contains Python library tutorials:
     :titlesonly:
 
     MIP with Python </MIP/tutorials/PuLP and Python MIP Tutorial>
+    Networkx Tutorial </MIP/tutorials/Networkx Tutorial>
