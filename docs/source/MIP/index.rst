@@ -42,6 +42,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Allocation Orders to Machines (Easy MIP modeling exercise) </MIP/exercises/Allocating Orders to Machines>
     Planning production and inventories (Normal MIP modeling exercise) </MIP/exercises/Planning production and inventories>
     Truck Deliveries (Easy MIP transportation problem modeling exercise) </MIP/exercises/Truck Deliveries>
+    Arcadia Deliveries (Normal MIP transportation problem modeling exercise) </MIP/exercises/Arcadia_deliveries>
     Distribution Problem Example (Normal MIP modeling exercise) </MIP/exercises/Distribution Problem Example>
     Transport Planning (Normal MIP modeling exercise) </MIP/exercises/Transport Planning>
     Plastic Injection Production Planning (Hard MIP modeling exercise) </MIP/exercises/Plastic Injection Production Planning>
