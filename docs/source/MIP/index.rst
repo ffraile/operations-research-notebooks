@@ -22,6 +22,7 @@ This section contains some basic tutorials:
     Solving Sudokus with a Genetic Algorithm </MIP/tutorials/sudoku GA>
     Introduction to Mixed Integer Programming </MIP/tutorials/MIP Intro>
     Transportation Problems </MIP/tutorials/Transportation Problem>
+    Graph Theory tutorial </MIP/tutorials/Graph theory>
     Graph Theory tutorial: Routing </MIP/tutorials/Routing example>
 
 Exercises
@@ -66,6 +67,7 @@ In this section you have the solution to the different exercises.
     Planning production and inventories (Normal modeling exercise) </MIP/solved/Planning production and inventories (Solved)>
     Allocation Orders to Machines (Easy modeling exercise) </MIP/solved/Allocating Orders to Machines (Solved)>
     Truck Deliveries (Easy transport exercise) </MIP/solved/Truck Deliveries (Solved)>
+    Arcadia Deliveries (Normal MIP transportation problem modeling exercise) </MIP/solved/Arcadia_deliveries (Solved)>
     Distribution Problem Example (Normal modeling exercise) </MIP/solved/Distribution Problem Example (Solved)>
     Transport Planning (Normal modeling exercise) </MIP/solved/Transport Planning (Solved)>
     Plastic Injection Production Planning (Hard MIP modeling exercise) </MIP/solved/Plastic Injection Production Planning>
