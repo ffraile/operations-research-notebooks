@@ -20,6 +20,7 @@ This section contains some basic tutorials:
     Constrained NLP </NLP/tutorials/Constrained NLP>
     Introduction to machine learning </NLP/tutorials/Introduction to Machine Learning>
     Quadratic Optimization and Machine Learning </NLP/tutorials/Quadratic Optimization>
+    Support Vector Machines </NLP/tutorials/Machine_learning_classification_as_a_constrained_quadratic_optimization_problem>
 
 Exercises
 __________
