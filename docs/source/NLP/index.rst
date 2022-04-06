@@ -20,6 +20,7 @@ This section contains some basic tutorials:
     Constrained NLP </NLP/tutorials/Constrained NLP>
     Introduction to machine learning </NLP/tutorials/Introduction to Machine Learning>
     Quadratic Optimization and Machine Learning </NLP/tutorials/Quadratic Optimization>
+    Support Vector Machines </NLP/tutorials/Machine_learning_classification_as_a_constrained_quadratic_optimization_problem>
 
 Exercises
 __________
@@ -58,6 +59,6 @@ In this section you have the solution to the different exercises.
     Car Production Planning (easy) </NLP/solved/Car Production Planning (Solved)>
     Nova Case (normal) </NLP/solved/Nova Case (Solved)>
     Maximising investments of a startup </NLP/solved/Maximising investments of a startup (Solved)>
-    Planning refreshments production </NLP/solved/Planning refreshments production (Solved)>
+    Planning refreshments production </NLP/solved/Planning refreshments (Solved)>
     Production Mix of Pharma </NLP/solved/Production Mix of Pharma>
     Optimising the design of headphones </NLP/solved/Banshee limited>

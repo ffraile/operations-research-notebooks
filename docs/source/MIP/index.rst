@@ -22,6 +22,7 @@ This section contains some basic tutorials:
     Solving Sudokus with a Genetic Algorithm </MIP/tutorials/sudoku GA>
     Introduction to Mixed Integer Programming </MIP/tutorials/MIP Intro>
     Transportation Problems </MIP/tutorials/Transportation Problem>
+    Graph Theory tutorial </MIP/tutorials/Graph theory>
     Graph Theory tutorial: Routing </MIP/tutorials/Routing example>
 
 Exercises
@@ -42,6 +43,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Allocation Orders to Machines (Easy MIP modeling exercise) </MIP/exercises/Allocating Orders to Machines>
     Planning production and inventories (Normal MIP modeling exercise) </MIP/exercises/Planning production and inventories>
     Truck Deliveries (Easy MIP transportation problem modeling exercise) </MIP/exercises/Truck Deliveries>
+    Arcadia Deliveries (Normal MIP transportation problem modeling exercise) </MIP/exercises/Arcadia_deliveries>
     Distribution Problem Example (Normal MIP modeling exercise) </MIP/exercises/Distribution Problem Example>
     Transport Planning (Normal MIP modeling exercise) </MIP/exercises/Transport Planning>
     Plastic Injection Production Planning (Hard MIP modeling exercise) </MIP/exercises/Plastic Injection Production Planning>
@@ -65,6 +67,7 @@ In this section you have the solution to the different exercises.
     Planning production and inventories (Normal modeling exercise) </MIP/solved/Planning production and inventories (Solved)>
     Allocation Orders to Machines (Easy modeling exercise) </MIP/solved/Allocating Orders to Machines (Solved)>
     Truck Deliveries (Easy transport exercise) </MIP/solved/Truck Deliveries (Solved)>
+    Arcadia Deliveries (Normal MIP transportation problem modeling exercise) </MIP/solved/Arcadia_deliveries (Solved)>
     Distribution Problem Example (Normal modeling exercise) </MIP/solved/Distribution Problem Example (Solved)>
     Transport Planning (Normal modeling exercise) </MIP/solved/Transport Planning (Solved)>
     Plastic Injection Production Planning (Hard MIP modeling exercise) </MIP/solved/Plastic Injection Production Planning>
