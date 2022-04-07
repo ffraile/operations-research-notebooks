@@ -16,7 +16,7 @@ This section contains some basic tutorials:
     Introduction to Decision Theory </Decision Theory/tutorials/DT Intro>
     Decision Trees </Decision Theory/tutorials/Decision Trees>
     Decision Trees and machine learning </Decision Theory/tutorials/Decision_trees_in_machine_learning>
-    Decision Trees with Scikit Learn (SKLearn) </Decision Theory/tutorials/Decision_trees_machine_learning_with_SKLearn>
+    Decision Trees with SciKit Learn (SKLearn) </Decision Theory/tutorials/Decision_trees_machine_learning_with_SKLearn>
 
 Exercises
 __________
