@@ -28,6 +28,7 @@ In this section you have an example of a simulation solved with the Montecarlo m
     :titlesonly:
 
     Commission sales (Easy simulation exercise) </Simulation/Exercises/Sales commissions forecast>
+    Return of investment in Search Engine Optimisation (Easy simulation exercise) </Simulation/Exercises/Return of search engine investments>
 
 Solved Exercises
 __________________
@@ -40,3 +41,4 @@ In this section you have the solution to the different exercises.
     :titlesonly:
 
     Commission sales (Easy simulation exercise) </Simulation/Solved/Sales commissions forecast>
+    Return of investment in Search Engine Optimisation (Easy simulation exercise) </Simulation/Solved/Return of search engine investments>
