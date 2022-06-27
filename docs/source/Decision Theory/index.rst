@@ -38,6 +38,8 @@ In this section you have a collection of decision tree problems sorted by diffic
     Planning a Factory Site (Hard) </Decision Theory/exercises/Planning a factory site>
     Select suppliers (Hard) </Decision Theory/exercises/Selecting suppliers>
     Blind wine tasting (Normal) </Decision Theory/exercises/Blind wine tasting>
+    The Eye of Agamoto (Normal) </Decision Theory/exercises/The Eye of Agamoto>
+
 
 
 Solved Exercises
@@ -55,3 +57,4 @@ In this section you have the solution to the different exercises.
     Planning a Factory Site (Hard) </Decision Theory/solved/Planning a factory site (Solved)>
     Select suppliers (Hard) </Decision Theory/solved/Selecting suppliers>
     Blind wine tasting (Normal) </Decision Theory/solved/Blind wine tasting>
+    The Eye of Agamoto (Normal) </Decision Theory/solved/The Eye of Agamoto>
