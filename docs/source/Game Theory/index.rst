@@ -37,6 +37,8 @@ In this section you have a collection of decision tree problems sorted by diffic
     Developing a High-Tech Product (Normal) </Game Theory/Exercises/Developing a High-Tech Product>
     Investments Strategy (Normal) </Game Theory/Exercises/Investments Strategy>
     Playing Bluff (Normal) </Game Theory/Exercises/Playing a game>
+    The Squid Game (Normal) </Game Theory/Exercises/The Squid Game>
+
 
 Solved Exercises
 __________________
@@ -54,3 +56,4 @@ In this section you have the solution to the different exercises.
     Developing a High-Tech Product (Normal) </Game Theory/Solved/Developing a High-Tech Product (Solved)>
     Investments Strategy (Normal) </Game Theory/Solved/Investments Strategy (Solved)>
     Playing Bluff (Normal) </Game Theory/Solved/Playing a game>
+    The Squid Game (Normal) </Game Theory/Solved/The Squid Game>
