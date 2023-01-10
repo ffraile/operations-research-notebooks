@@ -10,15 +10,21 @@ The main objective of operations research is to support decision making through 
 Formally, making a decision is the process of selecting the best alternative between a set of alternative options. Depending on the problem, there can be a finite set or an infinite set of alternative options.
 The connection between Operations Research and management is clear: Managers make decisions and in extension, decision making is strongly connected to management. From this perspective, Operations Research gathers a set of tools that identify the best (optimal) alternative in a systematic way, based on a set of assumptions that allows us to model the decision making process using the mathematical language.
 
-In a nutshell, the objective of OR is to find optimal solutions to **management problems** in the domain of **supply chain operations**, using **mathematical methods** and implement these methods using **computer science** (algorithms), as illustrated in the figure below.
+In a nutshell, the objective of OR is to find optimal solutions to **management problems**, optimizing the performance of **complex systems**.
+In practice, the optimization is achieved using **mathematical methods** and these methods are implemented using computers and **computer science**.
+Although operations research can be applied to different domains, this book is focused on **supply chain management**. As illustrated in the figure below, in this book, supply chain management, applied mathematics, and computer science overlap and interact in a number of ways.
 
 .. image:: img/OR_in_a_nutshell.png
     :width: 350px
-    :alt: OR in a nutshell: A combination of data science, computer science and supply chain management
+    :alt: OR in a nutshell: A combination of applied mathematics, computer science and supply chain management
 
-To provide a clear framework for the book, the scope of the problems that will be addressed relate to specific **management levels**, and **business processes**.
+Supply chain management is the process of coordinating the flow of goods, services, and information from suppliers, through production and distribution, to customers. It involves managing the relationships between different parties in the supply chain, as well as coordinating the activities and resources needed to move goods and services from one place to another. Some of the key activities involved in supply chain management include sourcing raw materials and components, manufacturing and assembling products, warehousing and storing finished goods, and transportation and distribution. The goal of supply chain management is to ensure that goods and services are produced and delivered efficiently and effectively, while minimizing costs and risks. Operations research and computer science can both play important roles in the design and optimization of supply chain systems.
 
-Management Framework
+Supply chain models provide a framework for understanding and analyzing the various components and processes involved in the supply chain, and operations research techniques (a branch of applied mathematics) can be used to design and analyze algorithms for optimizing the performance of these systems. Once the algorithms have been designed and tested, computer science can be used to implement the solution, either by building a custom software application or by using a pre-existing tool or platform.
+
+The next section describes the management framework used in the book, consisted of **management levels**, and **business processes** modelling supply chain management.
+
+Management Framework: Supply chain models
 ^^^^^^^^^^^^^^^^^^^^^
 Business processes
 ^^^^^^^^^^^^^^^^^^
@@ -63,13 +69,13 @@ Operations Research provides tools to support decision making in any of the thre
 
 Operations Research and Artificial Intelligence
 ________________________________________________
-Operations Research is strongly connected to Artificial Intelligence (AI). The `European Union <https://ec.europa.eu/digital-single-market/en/news/definition-artificial-intelligence-main-capabilities-and-scientific-disciplines>`_ defines AI as:
+Operations Research is strongly connected to Artificial Intelligence (AI). The `European Union <https://ec.europa.eu/futurium/en/system/files/ged/ai_hleg_definition_of_ai_18_december_1.pdf>`_ defines AI as:
     \"Artificial intelligence (AI) refers to systems that display intelligent behaviour by analysing their environment and taking actions - with some degree of autonomy - to achieve specific goals\"
 
-Therefore, AI systems sense their environment and take optimal decisions to achieve specific goals. Clearly, from this definition, AI and OR are strongly related. Both disciplines make use of the same mathematical tools, primarily in the field of optimisation, to find the best course of action. However, particularly in this course, OR is focused on business management problems, while AI refers to any system that exhibits rationality (defined as the capability to perceive the environment and determine a course of action based on processed information).
-OR is therefore a field of application of AI. From this perspective, this course describes the main mathematical techniques that support decision making and thus, it provides a good introduction to the field of AI, guided through business management problems.
+Therefore, AI systems sense their environment and take optimal decisions to achieve specific goals. Clearly, from this definition, AI and OR are also interlinked and can be used together to solve complex optimization problems.
+Fundamentally, both disciplines make use of mathematics, primarily in the field of optimisation, to find the best course of action. For this reason, and given the importance and impact of AI in solving decisional problems, this book will also cover some of the basics of modern artificial intelligence.
 
-Moreover, as described in the same document referenced above, broadly speaking, all such techniques can be grouped in two main groups, related to the capabilities of **reasoning** and **learning**.
+Moreover, as described in the same document referenced above, broadly speaking, all such artificial intelligence techniques can be grouped in two main groups, related to the capabilities of **reasoning** and **learning**.
 
 .. image:: img/AI_and_OR.png
     :alt: AI techniques can be grouped into reasoning and machine learning
@@ -77,7 +83,9 @@ Moreover, as described in the same document referenced above, broadly speaking, 
 - **Reasoning**: These techniques allow an AI system to take as input the data coming from different sources and propose an action to take, given the goal to achieve.
 - **Machine learning**: These techniques allow an AI system to learn how to solve problems that cannot be precisely specified, or whose solution method cannot be described by symbolic reasoning rules.
 
-Let us emphasize again that this course in OR is mainly focused on reasoning techniques, techniques that allow us to find the best decision from a set of alternative options. The course will discuss extensively **optimisation** which is an entire field of mathematics dedicated to finding the **optimal** (normally the minimum or the maximum) solution among all **feasible** solutions. Due to the importance of these definitions, they are formally defined in a section below. The course will also cover **searching problems** and **Combinatorial Optimization**, which is the sub-field of optimisation dedicated to finding an optimal solution from a finite set of solutions.
+Operations research techniques, such as mathematical modeling and optimization algorithms, can be used to represent and solve reasoning problems in a way that is amenable to automation and solution by an AI system. In turn, machine learning  can be used to improve the performance and efficiency of operations research models and algorithms. For example, an AI system might be used to analyze large amounts of data and identify patterns and relationships that are not immediately apparent to humans. This analysis can then be used to inform the development of more accurate and effective operations research models, which can be used to optimize the performance of a system. Similarly, an AI system might be used to automate the solution of operations research models, allowing for faster and more accurate decision making. Overall, the combination of AI and operations research can be a powerful tool for solving complex optimization problems in a wide range of fields.
+
+Let us emphasize again that this book in OR is mainly focused on reasoning techniques, and not so on learning techniques (although it will cover the basics). Reasoning techniques will allow us to find the best decision from a set of alternative options. The course will discuss extensively **optimisation** which is an entire field of mathematics dedicated to finding the **optimal** (normally the minimum or the maximum) solution among all **feasible** solutions. Due to the importance of these definitions, they are formally defined in a section below. The course will also cover **searching problems** and **Combinatorial Optimization**, which is the sub-field of optimisation dedicated to finding an optimal solution from a finite set of solutions.
 The course will describe how complex problems in OR, like **planning** (eg finding the optimal allocation or resources to accomplish a specific objective) or **scheduling** (find the optimal order of activities that minimise the execution of an activity plan, given a limited set of resources), can be modeled and solved using advanced analytic techniques.
 
 Although it is not a fundamental part of this course, the course will also describe how machine learning is strongly related to the same techniques and will discuss specific applications of machine learning in OR.
