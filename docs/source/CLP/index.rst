@@ -93,3 +93,4 @@ This section contains Python library tutorials:
     :titlesonly:
 
     PuLP </CLP/libraries/Python PuLP Tutorial>
+    Scipy's LinProc </CLP/libraries/Scipy Linprog tutorial>
