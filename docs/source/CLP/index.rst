@@ -50,7 +50,6 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Resourcing Product Mix of Aluminium Windows (Normal modeling, programming, and analysis) </CLP/exercises/Manufacturing solar cell panels>
     The chilling adventures of Sabrina (Normal modeling problem) </CLP/exercises/The chilling adventures of Sabrina>
     Those damn interns (Normal analysis problem) </CLP/exercises/Those damn interns>
-    A software bug (Normal analysis problem) </CLP/exercises/A software bug>
     Invincible nutritional (Normal modeling and analysis) </CLP/exercises/Invincible>
     Chappie II (Hard modeling problem) </CLP/exercises/Chappie II>
 
