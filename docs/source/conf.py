@@ -30,8 +30,7 @@ release = 'v2'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'nbsphinx']
+extensions = ['nbsphinx']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -52,17 +51,13 @@ html_theme = 'bizstyle'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+# html_static_path = ['_static']
 
 nbsphinx_execute = 'never'
 
-sphinx_gallery_conf = {
-  'binder': {
-     # Required keys
-     'org': 'github.com',
-     'repo': 'ffraile/operations-research-notebooks',
-     'branch': 'master',  # Can be any branch, tag, or commit hash. Use a branch that hosts your docs.
-     'binderhub_url': 'https://mybinder.org',  # Any URL of a binderhub deployment. Must be full URL (e.g. https://mybinder.org).
-     'dependencies': 'CLP/requirements',
-     }
+# Latex engine to support unicode characters
+# Add svg package to support svg images
+latex_engine = "lualatex"
+latex_elements = {
+    "preamble": "\\usepackage{svg}\n",
 }
