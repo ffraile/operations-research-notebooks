@@ -55,9 +55,3 @@ html_theme = 'bizstyle'
 
 nbsphinx_execute = 'never'
 
-# Latex engine to support unicode characters
-# Add svg package to support svg images
-latex_engine = "lualatex"
-latex_elements = {
-    "preamble": "\\usepackage{svg}\n",
-}
