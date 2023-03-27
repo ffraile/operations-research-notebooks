@@ -17,6 +17,7 @@ This section contains some basic tutorials:
     Introduction to Non-Linear Programming </NLP/tutorials/NLP Intro>
     Unconstrained NLP </NLP/tutorials/Unconstrained NLP>
     Gradient descent methods </NLP/tutorials/Gradient Descent Methods>
+    Interactive Gradient Descent </NLP/tutorials/Interactive Gradient Descent>
     Constrained NLP </NLP/tutorials/Constrained NLP>
     Introduction to machine learning </NLP/tutorials/Introduction to Machine Learning>
     Quadratic Optimization and Machine Learning </NLP/tutorials/Quadratic Optimization>
