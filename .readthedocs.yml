@@ -4,3 +4,5 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.9"
+    pip: "21.2.4"
+    nbsphinx: "0.8.7"
