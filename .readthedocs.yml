@@ -2,6 +2,7 @@ version: 2
 formats: all
 python:
   version: 3
+  os: ubuntu-22.04
   install:
     - requirements: docs/requirements.txt
   system_packages: true
