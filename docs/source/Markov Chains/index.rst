@@ -44,7 +44,7 @@ In this section you have the solution to the different exercises.
     :titlesonly:
 
     Consultancy Firm (Easy modeling exercise) </Markov Chains/Solved/Consultancy Firm (Solved)>
-    Alien Virus (Normal modeling exercise) </Markov Chains/solved/Alien virus>
+    Alien Virus (Normal modeling exercise) </Markov Chains/Solved/Alien virus>
     Bob´s Burger and Pestos (Normal modeling exercise) </Markov Chains/Solved/Bobs Burger and Pestos>
     Distribution of Operators in Workshop Areas (Normal modeling exercise) </Markov Chains/Solved/Distribution of Operators in Workshop Areas (Solved)>
     Replacing a car (Normal modeling exercise) </Markov Chains/Solved/Replacing a car (Solved)>
