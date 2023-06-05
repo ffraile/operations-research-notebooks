@@ -54,6 +54,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Production Planning (normal graph theory exercise) </MIP/exercises/Production Planning>
     Production Sequencing (normal graph theory) </MIP/exercises/Production Sequencing>
     Planet Express Deliveries (normal transportation problem) </MIP/exercises/Planet Express Deliveries>
+    3D Printing Precision Parts (normal MIP modeling exercise) </MIP/exercises/3D printing precision parts>
 
 Solved Exercises
 __________________
@@ -78,6 +79,7 @@ In this section you have the solution to the different exercises.
     Production Planning (normal graph theory exercise) </MIP/solved/Production Planning (Solved)>
     Production Sequencing (normal graph theory) </MIP/solved/Production Sequencing (Solved)>
     Planet Express Deliveries (normal transportation problem) </MIP/solved/Planet Express Deliveries>
+    3D Printing Precision Parts (normal MIP modeling exercise) </MIP/solved/3D printing precision parts (Solved)>
 
 Python libraries
 ________________

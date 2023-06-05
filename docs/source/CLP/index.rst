@@ -52,6 +52,9 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Those damn interns (Normal analysis problem) </CLP/exercises/Those damn interns>
     A software bug (Normal analysis problem) </CLP/exercises/A software bug>
     Invincible nutritional (Normal modeling and analysis) </CLP/exercises/Invincible>
+    Manufacturing Solar Panels Revisited (analysis exercise) </CLP/exercises/Manufacturing Solar Panels Revisited>
+    March & Sanchis Investments (Normal modeling exercise) </CLP/solved/investments>
+    March & Sanchis Investments Revisited (Normal analysis exercise) </CLP/exercises/investments analysis>
     Chappie II (Hard modeling problem) </CLP/exercises/Chappie II>
 
 Solved Exercises
@@ -80,6 +83,8 @@ In this section you have the solution to the different exercises.
     Those damn interns (Normal analysis problem) </CLP/solved/Those damn interns (Solved)>
     A software bug (Normal analysis problem) </CLP/solved/A software bug (Solved)>
     Invincible nutritional (Normal modeling and analysis) </CLP/solved/Invincible (Solved)>
+    Manufacturing Solar Panels Revisited (analysis exercise) </CLP/exercises/Manufacturing Solar Panels Revisited>
+    March & Sanchis Investments (Normal modeling exercise) </CLP/solved/investments (Solved)>
     Chappie II (Hard Modeling exercise) </CLP/solved/Chappie II (Solved)>
 
 Python libraries

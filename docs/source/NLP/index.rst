@@ -45,6 +45,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Planning refreshments production (hard) </NLP/exercises/Planning refreshments production>
     Production Mix of Pharma (normal) </NLP/exercises/Production Mix of Pharma>
     Optimising the design of headphones (normal) </NLP/exercises/Banshee limited>
+    Mathematical Nirvana (normal) </NLP/exercises/Mathematical Nirvana>
 
 Solved Exercises
 __________________
@@ -63,3 +64,4 @@ In this section you have the solution to the different exercises.
     Planning refreshments production (hard) </NLP/solved/Planning refreshments (Solved)>
     Production Mix of Pharma (normal) </NLP/solved/Production Mix of Pharma>
     Optimising the design of headphones (normal) </NLP/solved/Banshee limited>
+    Mathematical Nirvana (normal) </NLP/solved/Mathematical Nirvana>

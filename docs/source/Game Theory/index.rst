@@ -38,6 +38,7 @@ In this section you have a collection of decision tree problems sorted by diffic
     Investments Strategy (Normal) </Game Theory/Exercises/Investments Strategy>
     Playing Bluff (Normal) </Game Theory/Exercises/Playing a game>
     The Squid Game (Normal) </Game Theory/Exercises/The Squid Game>
+    Strategies for Political Campaigns (Normal) </Game Theory/Exercises/Strategies for Political Campaigns>
 
 
 Solved Exercises
@@ -57,3 +58,4 @@ In this section you have the solution to the different exercises.
     Investments Strategy (Normal) </Game Theory/Solved/Investments Strategy (Solved)>
     Playing Bluff (Normal) </Game Theory/Solved/Playing a game>
     The Squid Game (Normal) </Game Theory/Solved/The Squid Game>
+    Strategies for Political Campaigns (Normal) </Game Theory/Solved/Strategies for Political Campaigns>
