@@ -53,7 +53,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     A software bug (Normal analysis problem) </CLP/exercises/A software bug>
     Invincible nutritional (Normal modeling and analysis) </CLP/exercises/Invincible>
     Manufacturing Solar Panels Revisited (analysis exercise) </CLP/exercises/Manufacturing Solar Panels Revisited>
-    March & Sanchis Investments (Normal modeling exercise) </CLP/solved/investments>
+    March & Sanchis Investments (Normal modeling exercise) </CLP/exercises/investments>
     March & Sanchis Investments Revisited (Normal analysis exercise) </CLP/exercises/investments analysis>
     Chappie II (Hard modeling problem) </CLP/exercises/Chappie II>
 
