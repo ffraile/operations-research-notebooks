@@ -2,6 +2,11 @@ ipykernel
 sphinx
 nbsphinx
 sphinx-gallery
+myst_parser
+sphinx-design
+sphinx-copybutton
+sphinxext-opengraph
+furo
 pandas
 numpy
 matplotlib
