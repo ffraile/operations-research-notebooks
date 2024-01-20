@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'operations_research_notebooks'
+project = 'operations research'
 copyright = '2023, Francisco Fraile'
 author = 'Francisco Fraile'
 

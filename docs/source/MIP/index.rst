@@ -18,7 +18,8 @@ This section contains some basic tutorials:
     :titlesonly:
 
     Introduction to Combinatorial Optimization </MIP/tutorials/CO Intro>
-    Sorting algorithm efficiency example</MIP/tutorials/Ordering example>
+    Algorithm Efficiency Assessment</MIP/tutorials/Nasty_factorial>
+    Genetic Algorithms</MIP/tutorials/genetic algorithms>
     Solving Sudokus with a Genetic Algorithm </MIP/tutorials/sudoku GA>
     Introduction to Mixed Integer Programming </MIP/tutorials/MIP Intro>
     Transportation Problems </MIP/tutorials/Transportation Problem>
