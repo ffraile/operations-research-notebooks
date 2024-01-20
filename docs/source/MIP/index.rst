@@ -22,7 +22,9 @@ This section contains some basic tutorials:
     Genetic Algorithms</MIP/tutorials/genetic algorithms>
     Solving Sudokus with a Genetic Algorithm </MIP/tutorials/sudoku GA>
     Introduction to Mixed Integer Programming </MIP/tutorials/MIP Intro>
+    MIP in Python using PuLP </MIP/tutorials/MIP in Python using PuLP>
     Transportation Problems </MIP/tutorials/Transportation Problem>
+    Transportation Problems in Python </MIP/Tutorials/Transportation Problem in Python>
     Graph Theory tutorial </MIP/tutorials/Graph theory>
     Graph Theory tutorial: Routing </MIP/tutorials/Routing example>
     Graph Theory tutorial: Traveling Salesman Problem </MIP/tutorials/Traveling Salesman Problem Example>
