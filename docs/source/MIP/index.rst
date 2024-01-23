@@ -27,8 +27,6 @@ This section contains some basic tutorials:
     Transportation Problems in Python </MIP/Tutorials/Transportation Problem in Python>
     Graph Theory tutorial </MIP/tutorials/Graph theory>
     Graph Theory tutorial: Routing </MIP/tutorials/Routing example>
-    Graph Theory tutorial: Traveling Salesman Problem </MIP/tutorials/Traveling Salesman Problem Example>
-
 
 Exercises
 __________
