@@ -41,6 +41,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Ski Patrol (Easy modeling exercise) </CLP/exercises/Ski Patrol>
     Production Mix Problem (Easy modeling exercise) </CLP/exercises/Production Mix Problem>
     Making weapons (Easy modeling exercise) </CLP/exercises/Making weapons>
+    Blending Cremanet (Easy modeling exercise) </CLP/exercises/Blending Cremanet>
     Making Chappie (Normal modeling exercise) </CLP/exercises/Making Chappie>
     Blending Craft Beer (Normal modeling exercise) </CLP/exercises/Blending Craft Beer>
     Blending Problem (Normal modeling and programming with PuLP) </CLP/exercises/Blending Problem>
