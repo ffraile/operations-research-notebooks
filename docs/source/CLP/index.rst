@@ -57,6 +57,8 @@ In this section you have a collection of CLP problems sorted by difficulty:
     March & Sanchis Investments (Normal modeling exercise) </CLP/exercises/investments>
     March & Sanchis Investments Revisited (Normal analysis exercise) </CLP/exercises/investments analysis>
     Chappie II (Hard modeling problem) </CLP/exercises/Chappie II>
+    The chilling adventures of Sabrina II (normal analysis problem) </CLP/exercises/Sabrina revisited>
+    Lost in Space (Easy modeling problem) </CLP/exercises/Lost in space>
 
 Solved Exercises
 __________________

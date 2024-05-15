@@ -56,6 +56,8 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Production Sequencing (normal graph theory) </MIP/exercises/Production Sequencing>
     Planet Express Deliveries (normal transportation problem) </MIP/exercises/Planet Express Deliveries>
     3D Printing Precision Parts (normal MIP modeling exercise) </MIP/exercises/3D printing precision parts>
+    Spellman's Network Optimization (Normal transportation problem) </MIP/exercises/Spellmans transport>
+    Professor's X School Network Optimization (Normal transportation problem) </MIP/exercises/Professor Xavier School for Gifted Youngsters>
 
 Solved Exercises
 __________________
@@ -81,6 +83,8 @@ In this section you have the solution to the different exercises.
     Production Sequencing (normal graph theory) </MIP/solved/Production Sequencing (Solved)>
     Planet Express Deliveries (normal transportation problem) </MIP/solved/Planet Express Deliveries>
     3D Printing Precision Parts (normal MIP modeling exercise) </MIP/solved/3D printing precision parts (Solved)>
+    Spellman's Network Optimization (Normal transportation problem) </MIP/solved/Spellmans transport>
+    Professor's X School Network Optimization (Normal transportation problem) </MIP/solved/Professor Xavier School for gifted youngsters>
 
 Python libraries
 ________________
