@@ -86,8 +86,8 @@ In this section you have the solution to the different exercises.
     Those damn interns (Normal analysis problem) </CLP/solved/Those damn interns (Solved)>
     A software bug (Normal analysis problem) </CLP/solved/A software bug (Solved)>
     Invincible nutritional (Normal modeling and analysis) </CLP/solved/Invincible (Solved)>
-    Manufacturing Solar Panels Revisited (analysis exercise) </CLP/exercises/Manufacturing Solar Panels Revisited>
-    March & Sanchis Investments (Normal modeling exercise) </CLP/solved/investments (Solved)>
+    Manufacturing Solar Panels Revisited (analysis exercise) </CLP/solved/Manufacturing Solar Panels Revisited>
+    March & Sanchis Investments (Normal modeling exercise) </CLP/solved/investments analysis (solved)>
     Chappie II (Hard Modeling exercise) </CLP/solved/Chappie II (Solved)>
     The chilling adventures of Sabrina II (normal analysis problem) </CLP/solved/Sabrina revisited (Solved)>
     Lost in Space (Easy modeling problem) </CLP/solved/Lost in space>
