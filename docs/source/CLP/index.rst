@@ -58,7 +58,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     March & Sanchis Investments Revisited (Normal analysis exercise) </CLP/exercises/investments analysis>
     Chappie II (Hard modeling problem) </CLP/exercises/Chappie II>
     The chilling adventures of Sabrina II (normal analysis problem) </CLP/exercises/Sabrina revisited>
-    Lost in Space (Easy modeling problem) </CLP/exercises/Lost in space>
+    Lost in Space (Easy modeling problem) </CLP/exercises/Lost in Space>
 
 Solved Exercises
 __________________
@@ -89,6 +89,7 @@ In this section you have the solution to the different exercises.
     Manufacturing Solar Panels Revisited (analysis exercise) </CLP/exercises/Manufacturing Solar Panels Revisited>
     March & Sanchis Investments (Normal modeling exercise) </CLP/solved/investments (Solved)>
     Chappie II (Hard Modeling exercise) </CLP/solved/Chappie II (Solved)>
+    The chilling adventures of Sabrina II (normal analysis problem) </CLP/solved/Sabrina revisited (Solved)>
     Lost in Space (Easy modeling problem) </CLP/solved/Lost in space>
 
 Python libraries
