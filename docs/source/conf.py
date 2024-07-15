@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'operations research'
+project = 'Notebooks for Operations Research'
 copyright = '2023, Francisco Fraile'
 author = 'Francisco Fraile'
 
 # The full version, including alpha/beta/rc tags
-release = 'v3'
+release = 'I'
 
 # The logo
 html_logo = '_static/logo.png'
@@ -69,4 +69,13 @@ nbsphinx_execute = 'never'
 latex_engine = "lualatex"
 latex_elements = {
     "preamble": "\\usepackage{svg}\n",
+    "papersize": '170mmx240mm',
+
 }
+
+
+root_doc = 'index.rst'
+latex_documents = [
+    (root_doc, 'or-notebooks.tex', 'Notebooks for Operations Research',
+     'Francisco Fraile', 'manual'),
+]
