@@ -74,7 +74,7 @@ latex_elements = {
 }
 
 
-root_doc = 'index.rst'
+root_doc = 'index'
 latex_documents = [
     (root_doc, 'or-notebooks.tex', 'Notebooks for Operations Research',
      'Francisco Fraile', 'manual'),
