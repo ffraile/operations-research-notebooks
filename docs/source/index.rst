@@ -8,7 +8,7 @@ Notebooks for Operations research
 ===============================================
 
 Prorogue
----------
+""""""""
 Welcome to the *Notebooks for Operations Research* interactive book! This book contains
 a collection of `Jupyter Notebooks <https://jupyter.org/>`_ with tutorials, exercises and Python libraries
 designed to explain the principles and applications of operations research.
@@ -78,8 +78,8 @@ The following references have been used throughout this interactive book:
 - The Pandas Development Team. (2020). Pandas: Powerful data structures for data analysis in Python. Retrieved from `https://pandas.pydata.org/ <https://pandas.pydata.org/>`_
 
 
-Contributions
-==============
+Call for Contributions
+======================
 If you are a teacher and would like to contribute to this online book, please do not hesitate to contact me and I will
 be glad to discuss how to integrate your valuable input. We are always eager to:
 
