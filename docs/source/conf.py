@@ -66,9 +66,10 @@ html_theme = 'furo'
 nbsphinx_execute = 'never'
 
 ## Latex engine to support unicode characters
-latex_engine = "lualatex"
+latex_engine = "xelatex"
 latex_elements = {
-    "preamble": "\\usepackage{svg}\n",
+    "preamble": r'''\usepackage{svg}
+                    \geometry{papersize={170mm,240mm}}''',
     "papersize": '170mmx240mm',
 
 }

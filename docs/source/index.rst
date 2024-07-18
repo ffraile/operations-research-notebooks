@@ -1,12 +1,13 @@
 .. operations_research documentation master file, created by
-   sphinx-quickstart on Wed Dec 30 13:45:59 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+sphinx-quickstart on Wed Dec 30 13:45:59 2020.
+You can adapt this file completely to your liking, but it should at least
+contain the root `toctree` directive.
 
 
 Notebooks for Operations research
 ===============================================
 
+.. only:: html
 Prorogue
 """"""""
 Welcome to the *Notebooks for Operations Research* interactive book! This book contains
@@ -34,7 +35,33 @@ interaction with code. Additionally, the interactive notebooks incorporate quest
 so that you can delve into its contents with the help of an AI assistant. We want to provide an integrated environment
 with all the tools you need to learn operations research with a practical mindset, at your own path.
 
+.. only:: pdf
+   \chapter*{Preamble}
 
+Welcome to the *Notebooks for Operations Research* interactive book! This book contains
+a collection of `Jupyter Notebooks <https://jupyter.org/>`_ with tutorials, exercises and Python libraries
+designed to explain the principles and applications of operations research.
+
+Our primary goal and motivation is to bridge the gap between theoretical background and practical applications,
+leveraging the interactive features of Jupyter Notebook so that learners can engage with the content. Operations
+research is a fascinating field with countless real life applications, and we believe that, just as with many other
+fields, the best way to learn is to incorporate practical applications and skills. In this sense, Python provides a
+comprehensive toolset to solve operations research problems, and a user-friendly programming language that is easy to
+learn and close to mathematical language, thus it is perfect match for our objectives!
+
+When you embark in this educational endeavour, you need to know that the interactive book has been carefully crafted to
+introduce operations research to novice students. The chapters are organised to guide readers from the fundamentals of
+operations research to the application of complex problem solving methods and techniques in real life scenarios using
+Python. The book primarily covers applications related to engineering and management, as its origins root back to the
+a course on Operations Research at `EDEM <https://edem.eu/>`_, although it is open for the entire community. It is
+also important to note that this interactive book is a living document, open for contributions and continuously evolving
+to adding new content and advancements in the field.
+
+We happily invite you to join us and learn the fundamentals, challenge yourself with exercises, and learn the Python
+libraries to apply operations research in the real world. We have tried to make theory more easy to reach through the
+interaction with code. Additionally, the interactive notebooks incorporate questions for analysis and template prompts
+so that you can delve into its contents with the help of an AI assistant. We want to provide an integrated environment
+with all the tools you need to learn operations research with a practical mindset, at your own path.
 
 
 .. toctree::
