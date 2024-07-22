@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Notebooks for Operations Research'
-copyright = '2023, Francisco Fraile'
+copyright = '2024, Francisco Fraile'
 author = 'Francisco Fraile'
 
 # The full version, including alpha/beta/rc tags
