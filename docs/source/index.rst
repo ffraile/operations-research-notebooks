@@ -43,10 +43,8 @@ Notebooks for Operations research
    Continuous Linear Programming <CLP/index.rst>
    Mixed Integer Programming <MIP/index.rst>
    Non-Linear Programming <NLP/index.rst>
-   Decision Theory <Decision Theory/index.rst>
-   Game Theory <Game Theory/index.rst>
-   Simulation <Simulation/index.rst>
-   Markov Chains <Markov Chains/index.rst>
+   Decision Theory and Game Theory <Decision Theory/index.rst>
+   Simulation and Markov Chains <Simulation/index.rst>
 
 Bibliography
 ==============
