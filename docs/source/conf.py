@@ -68,10 +68,7 @@ nbsphinx_execute = 'never'
 ## Latex engine to support unicode characters
 latex_engine = "lualatex"
 latex_elements = {
-    "preamble": r'''\usepackage{svg}
-                    \geometry{papersize={170mm,240mm}}''',
-    "papersize": '170mmx240mm',
-
+    "preamble": "\\usepackage{svg}\n"
 }
 
 
