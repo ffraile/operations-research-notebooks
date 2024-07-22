@@ -18,8 +18,8 @@ if __name__ == '__main__':
             colabs_file_name = "/".join(template_file.parts[1:]).replace(" ", "%20")
             binder_file_name = "%2F".join(template_file.parts[1:]).replace(" ", "%20")
             badges = "## Try me\\n\"," +\
-                     "\"[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/{0}/blob/{1}/{2}/{3})".format(git_repo, branch, path_to_template_folders, colabs_file_name) +\
-                     "[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/{0}/{1}?labpath={2}%2F{3})".format(git_repo, branch, path_to_template_folders.replace("/","%2F"), binder_file_name)
+                     "\"[![Open In Colab](../../_static/colabs_badge.png)](https://colab.research.google.com/github/{0}/blob/{1}/{2}/{3})".format(git_repo, branch, path_to_template_folders, colabs_file_name) +\
+                     "[![Binder](../../_static/binder_badge.png)](https://mybinder.org/v2/gh/{0}/{1}?labpath={2}%2F{3})".format(git_repo, branch, path_to_template_folders.replace("/","%2F"), binder_file_name)
 
             with open(template_file, 'r', encoding="utf8") as in_file:
                 try:
