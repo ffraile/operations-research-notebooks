@@ -20,7 +20,7 @@ This section contains some basic tutorials:
     Introduction to Combinatorial Optimization </MIP/tutorials/CO Intro>
     Algorithm Efficiency Assessment</MIP/tutorials/Nasty_factorial>
     Genetic Algorithms</MIP/tutorials/genetic algorithms>
-    Solving Sudokus with a Genetic Algorithm </MIP/tutorials/sudoku GA>
+    Solving Sudoku's with a Genetic Algorithm </MIP/tutorials/sudoku GA>
     Introduction to Mixed Integer Programming </MIP/tutorials/MIP Intro>
     MIP in Python using PuLP </MIP/tutorials/PuLP and Python MIP Tutorial>
     Transportation Problems </MIP/tutorials/Transportation Problem>

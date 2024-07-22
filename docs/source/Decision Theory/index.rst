@@ -1,4 +1,4 @@
-Decision Theory
+Decision Theory and Game Theory
 =============================================
 This chapter provides an introduction to decision theory, where we will focus on solving decision problems whre the
 decision maker must select among various alternatives, which provide different performance. The chapter also covers

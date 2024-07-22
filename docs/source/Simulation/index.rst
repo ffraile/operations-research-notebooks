@@ -57,7 +57,7 @@ In this section you can find different Operations Research Problems modeled with
 
     Consultancy Firm (Easy modeling exercise) </Simulation/Exercises/Consultancy Firm>
     Alien Virus (Normal modeling exercise) </Simulation/Exercises/Alien virus>
-    Bob´s Burger and Pestos (Normal modeling exercise) </Simulation/Exercises/Bobs Burger and Pestos>
+    Bob´s Burger and Pesto's (Normal modeling exercise) </Simulation/Exercises/Bobs Burger and Pestos>
     Distribution of Operators in Workshop Areas (Normal modeling exercise) </Simulation/Exercises/Distribution of Operators in Workshop Areas>
     Replacing a car (Normal modeling exercise) </Simulation/Exercises/Replacing a car>
     Machine Control System (Hard modeling exercise) </Simulation/Exercises/Replacing a car>
@@ -75,7 +75,7 @@ In this section you have the solution to the different exercises.
 
     Consultancy Firm (Easy modeling exercise) </Simulation/Solved/Consultancy Firm (Solved)>
     Alien Virus (Normal modeling exercise) </Simulation/Solved/Alien virus>
-    Bob´s Burger and Pestos (Normal modeling exercise) </Simulation/Solved/Bobs Burger and Pestos>
+    Bob´s Burger and Pesto's (Normal modeling exercise) </Simulation/Solved/Bobs Burger and Pestos>
     Distribution of Operators in Workshop Areas (Normal modeling exercise) </Simulation/Solved/Distribution of Operators in Workshop Areas (Solved)>
     Replacing a car (Normal modeling exercise) </Simulation/Solved/Replacing a car (Solved)>
     Machine Control System (Hard modeling exercise) </Simulation/Solved/Machine Control System (Solved)>

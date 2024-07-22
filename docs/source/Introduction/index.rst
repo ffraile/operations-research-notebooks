@@ -52,7 +52,7 @@ Management levels
 ^^^^^^^^^^^^^^^^^^
 Management levels divide management and therefore decision making into three planes that are traversal to the entire company: The strategic level, the tactical level and the operational level.
 
-Each level has its own responsabilities and all work towards the same goals, to achieve the same objectives. The main differences between levels is that they deal with different time scales.
+Each level has its own responsibilities and all work towards the same goals, to achieve the same objectives. The main differences between levels is that they deal with different time scales.
 
 - **Strategic level**: The strategic level deals with long term business decisions and assurance of business objectives in the future. Therefore, decisions at this level deal with long time periods or time horizons, in the range of several years. Consequently, they need to be revisited or updated with a periodicity in the range of months.
 

@@ -27,7 +27,7 @@ In this section you can find different Operations Research Problems modeled with
 
     Consultancy Firm (Easy modeling exercise) </Markov Chains/Exercises/Consultancy Firm>
     Alien Virus (Normal modeling exercise) </Markov Chains/Exercises/Alien virus>
-    Bob´s Burger and Pestos (Normal modeling exercise) </Markov Chains/Exercises/Bobs Burger and Pestos>
+    Bob´s Burger and Pesto's (Normal modeling exercise) </Markov Chains/Exercises/Bobs Burger and Pestos>
     Distribution of Operators in Workshop Areas (Normal modeling exercise) </Markov Chains/Exercises/Distribution of Operators in Workshop Areas>
     Replacing a car (Normal modeling exercise) </Markov Chains/Exercises/Replacing a car>
     Machine Control System (Hard modeling exercise) </Markov Chains/Exercises/Replacing a car>
@@ -45,7 +45,7 @@ In this section you have the solution to the different exercises.
 
     Consultancy Firm (Easy modeling exercise) </Markov Chains/Solved/Consultancy Firm (Solved)>
     Alien Virus (Normal modeling exercise) </Markov Chains/Solved/Alien virus>
-    Bob´s Burger and Pestos (Normal modeling exercise) </Markov Chains/Solved/Bobs Burger and Pestos>
+    Bob´s Burger and Pesto's (Normal modeling exercise) </Markov Chains/Solved/Bobs Burger and Pestos>
     Distribution of Operators in Workshop Areas (Normal modeling exercise) </Markov Chains/Solved/Distribution of Operators in Workshop Areas (Solved)>
     Replacing a car (Normal modeling exercise) </Markov Chains/Solved/Replacing a car (Solved)>
     Machine Control System (Hard modeling exercise) </Markov Chains/Solved/Machine Control System (Solved)>
