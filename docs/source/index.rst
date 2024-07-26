@@ -13,7 +13,7 @@ fields, the best way to learn is to incorporate practical applications and skill
 comprehensive toolset to solve operations research problems, and a user-friendly programming language that is easy to
 learn and close to mathematical language, thus it is perfect match for our objectives!
 
-When you embark in this educational endeavour, you need to know that the interactive book has been carefully crafted to
+Before you embark in this educational project, you need to know that the interactive book has been carefully crafted to
 introduce operations research to novice students. The chapters are organised to guide readers from the fundamentals of
 operations research to the application of complex problem solving methods and techniques in real life scenarios using
 Python. The book primarily covers applications related to engineering and management, as its origins root back to the
