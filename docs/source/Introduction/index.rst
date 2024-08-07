@@ -73,7 +73,7 @@ Operations Research is strongly connected to Artificial Intelligence (AI). The `
     \"Artificial intelligence (AI) refers to systems that display intelligent behaviour by analysing their environment and taking actions - with some degree of autonomy - to achieve specific goals\"
 
 Therefore, AI systems sense their environment and take optimal decisions to achieve specific goals. Clearly, from this definition, AI and OR are also interlinked and can be used together to solve complex optimization problems.
-Fundamentally, both disciplines make use of mathematics, primarily in the field of optimisation, to find the best course of action. For this reason, and given the importance and impact of AI in solving decisional problems, this book will also cover some of the basics of modern artificial intelligence.
+Fundamentally, both disciplines make use of mathematics, primarily in the field of optimisation, to find the best course of action. For this reason, and given the importance and impact of AI in solving decision problems, this book will also cover some of the basics of modern artificial intelligence.
 
 Moreover, as described in the same document referenced above, broadly speaking, all such artificial intelligence techniques can be grouped in two main groups, related to the capabilities of **reasoning** and **learning**.
 

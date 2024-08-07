@@ -3,7 +3,7 @@ Combinatorial Optimization, Mixed Integer Programming and Network Theory
 This chapter covers basic theoretical and practical aspects of Mixed integer Programming (MIP) both theoretical and practical topics related to Continuous Linear Programming (CLP) and Network Theory using Python.
 Like, Continuous Linear Programming, MIP uses linear equations to model optimization problems. However, some of the decision variables can only take Integer values. Feasible solutions are no longer found at vertices of the feasibility region, and this fundamental fact drastically increases the complexity of MIP problems.
 Network Theory provides a framework rather useful to solve MIP problems, and therefore it is also introduced in this course.
-CLP allows us to model, solve and analyse the solution of optimization problems using linear equations. "The world is not linear" but still, CLP is a really powerful tool to solve a pletora of real world optimisation problems.
+CLP allows us to model, solve and analyse the solution of optimization problems using linear equations. "The world is not linear" but still, CLP is a really powerful tool to solve a plethora of real world optimisation problems.
 
 This chapter contains the resources listed in the following table of contents.
 
