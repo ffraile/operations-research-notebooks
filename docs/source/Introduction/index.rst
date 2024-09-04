@@ -200,7 +200,6 @@ From a very basic point of view, a Jupyter Notebook is a file that contains a se
 *   **Code Cells**: Code cells contain code in a given programming language (for instance Python) that will be executed by an **interpreter** when we execute the Notebook. Code cells have an output section where we can see the result of the code cell. From this, there are two ways we can use a Notebook. We can *view* a Notebook using a viewer, which allows us to render the Notebook, but not to run the code cells. If we have an Interpreter at hand, we can also **run** the Notebook to let the interpreter run the code and update the results of code cells.
 *   **Markdown Cells**: Markdown cells use `Markdown Syntax <https://www.markdownguide.org/basic-syntax/>`_ to explain code cells using a rich language that allows us to include links, equations, images, any kind of resource we can think of to support our presentation.
 
-Based on these definitions, this chapter contains the Notebooks in the Table of Contents below.
 
 Introduction to Python and Markdown
 ____________________________________
