@@ -1,8 +1,6 @@
-Simulation
+Simulation and Markov Chains
 =============================================
 This chapter covers some aspects of simulation and its applications in Operations Research.
-
-This chapter contains the resources listed in the following table of contents.
 
 Tutorials
 __________

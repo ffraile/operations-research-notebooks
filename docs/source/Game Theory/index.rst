@@ -1,7 +1,6 @@
 Game Theory
 =============================================
 This chapter provides an introduction to game theory, where we will learn to model and solve decision problems involving several rational decision makers, where we will focus on solving decision problems where the decision maker must select among various alternatives, focusing on competition and collaboration.
-This chapter contains the resources listed in the following table of contents.
 
 Tutorials
 __________

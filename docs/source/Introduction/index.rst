@@ -204,7 +204,6 @@ Based on these definitions, this chapter contains the Notebooks in the Table of 
 
 Introduction to Python and Markdown
 ____________________________________
-The following Table of Contents provides access to different tutorials that introduce the basics of Python Programming, Markdown cell edition, and some of the main libraries that will be used throughout the course.
 
 .. toctree::
     :maxdepth: 1
