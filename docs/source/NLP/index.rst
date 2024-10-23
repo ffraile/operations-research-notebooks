@@ -2,7 +2,6 @@ Non-Linear Programming
 =============================================
 This chapter provides an introduction to Non-Linear Programming (NLP), the branch of optimisation that deals with problem models where the functions that define the relationship between the unknowns (either objective function or constraints) are not linear.
 The fact that the functions are not linear makes NLP a lot harder to deal with from a mathematical point of view. The chapter will focus on specific cases that have many applications in real life problems, particularly quadratic functions and their relationship to machine learning.
-This chapter contains the resources listed in the following table of contents.
 
 Tutorials
 __________

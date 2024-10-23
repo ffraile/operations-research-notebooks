@@ -5,8 +5,6 @@ Like, Continuous Linear Programming, MIP uses linear equations to model optimiza
 Network Theory provides a framework rather useful to solve MIP problems, and therefore it is also introduced in this course.
 CLP allows us to model, solve and analyse the solution of optimization problems using linear equations. "The world is not linear" but still, CLP is a really powerful tool to solve a plethora of real world optimisation problems.
 
-This chapter contains the resources listed in the following table of contents.
-
 Tutorials
 __________
 This section contains some basic tutorials:

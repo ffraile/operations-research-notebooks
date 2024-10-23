@@ -5,7 +5,6 @@ decision maker must select among various alternatives, which provide different p
 game theory, a field dedicated to modelling and solving decision problems involving several rational decision makers.
 Here, we will focus on solving decision problems where the decision maker must select among various alternatives,
 focusing on competition and collaboration.
-This chapter contains the resources listed in the following table of contents.
 
 Tutorials
 __________

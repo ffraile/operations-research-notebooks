@@ -3,8 +3,6 @@
 In this chapter, we will cover both theoretical and practical topics related to Continuous Linear Programming (CLP) using Python. 
 CLP allows us to model, solve and analyse the solution of optimization problems using linear equations. "The world is not linear" but still, CLP is a really powerful tool to solve a pletora of real world optimisation problems. 
 
-This chapter contains the resources listed in the following table of contents.
-
 ## Table of contents
 - [Graphic solution tutorial](tutorials/graphic-solution-extended.ipynb): This notebook contains a tutorial covering the graphical method. The graphical method is not well suited to solve real problems, but it is a good starting point to understand the fundamentals of CLP.
 - [Exercises](exercises/README.md): This section contains CLP exercises. 
