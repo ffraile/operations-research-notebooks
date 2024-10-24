@@ -34,8 +34,8 @@ html_logo = '_static/logo.png'
 # ones.
 extensions = ['nbsphinx', 'myst_parser', 'sphinx_design', 'sphinx_copybutton', 'sphinxext.opengraph']
 
-# Add myst extensions to enable admonitions
-myst_enable_extensions = ["colon_fence", "html_admonition"]
+# Add myst extensions to enable admonitions, and image attributes (e.g. width)
+myst_enable_extensions = ["colon_fence", "html_admonition", "attrs_inline"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -74,18 +74,14 @@ latex_elements = {
         \usepackage{svg}
         \usepackage{titlesec}
         \usepackage{xcolor}
-        \usepackage[normalem]{ulem}  % For underline (without wavy effect)
-
-        % Define color for headings (same as level 3 heading color)
-        \definecolor{level3color}{RGB}{51, 71, 140}  % Adjust this RGB to your exact color
-
-        % Customize level 4 (\subsubsection) - Same font size and color as level 3, underlined and italic
-        \titleformat{\subsubsection}
-            {\normalfont\itshape\underline\color{level3color}\large}{\thesubsubsection}{1em}{}
 
         % Customize level 5 (\paragraph) - Same color and size as paragraph text, underlined
         \titleformat{\paragraph}
-            {\normalfont\underline\normalsize\color{black}}{\theparagraph}{1em}{}
+            {\normalfont\bfseries\normalsize\color{black}}{\theparagraph}{1em}{}
+            
+        % Customize level 6 (\subparagraph) - Same color and size as paragraph text, underlined
+        \titleformat{\subparagraph}
+            {\normalfont\normalsize\color{black}}{\theparagraph}{1em}{}
 
         % Optional: Control spacing around the headings
         \titlespacing*{\subsubsection}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
