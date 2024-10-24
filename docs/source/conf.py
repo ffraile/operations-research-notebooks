@@ -35,7 +35,7 @@ html_logo = '_static/logo.png'
 extensions = ['nbsphinx', 'myst_parser', 'sphinx_design', 'sphinx_copybutton', 'sphinxext.opengraph']
 
 # Add myst extensions to enable admonitions, and image attributes (e.g. width)
-myst_enable_extensions = ["colon_fence", "html_admonition", "attrs_inline"]
+myst_enable_extensions = ["attrs_inline", "attrs_image", "colon_fence", "html_admonition"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
