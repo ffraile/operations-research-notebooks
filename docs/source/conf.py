@@ -89,7 +89,7 @@ latex_elements = {
         \titlespacing*{\subsubsection}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         \titlespacing*{\paragraph}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
     ''',
-    'maketitle': '\\input{your_over_page.tex}'
+    'maketitle': '\\input{cover.tex}'
 }
 
 root_doc = 'index'
