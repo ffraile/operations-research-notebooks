@@ -18,6 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Notebooks for Operations Research'
+title = 'Notebooks for Operations Research'
+subtitle = 'A practical guide to operations research with Python'
 copyright = '2024, Francisco Fraile'
 author = 'Francisco Fraile'
 
@@ -74,25 +76,6 @@ latex_elements = {
         \usepackage{svg}
         \usepackage{titlesec}
         \usepackage{xcolor}
-        
-        % Add packages needed for cover page customization
-        \usepackage{graphicx}
-        \usepackage{wallpaper}
-        
-         % Suppress the default title, date, and author on the cover page
-        \makeatletter
-        \renewcommand{\maketitle}{
-            % Add a full-page background image
-            \ThisCenterWallPaper{1.0}{cover.jpg}
-            \vspace*{5cm}
-            \begin{center}
-                {\Huge \textbf{\@title}}\\[2cm]  % Title of the document
-                {\Large \textit{\@author}}\\[1cm]  % Author's name
-                {\Large \@date}  % Date
-            \end{center}
-            \newpage
-        }
-        \makeatother
 
         % Customize level 5 (\paragraph) - Same color and size as paragraph text, underlined
         \titleformat{\paragraph}
@@ -106,29 +89,7 @@ latex_elements = {
         \titlespacing*{\subsubsection}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         \titlespacing*{\paragraph}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
     ''',
-    'maketitle': '',  # Remove the default maketitle command
-}
-
-latex_elements = {
-    'preamble': r'''
-        
-
-        % Suppress the default title, date, and author on the cover page
-        \makeatletter
-        \renewcommand{\maketitle}{
-            % Add a full-page background image
-            \ThisCenterWallPaper{1.0}{path_to_your_image.jpg}
-            \vspace*{5cm}
-            \begin{center}
-                {\Huge \textbf{\@title}}\\[2cm]  % Title of the document
-                {\Large \textit{\@author}}\\[1cm]  % Author's name
-                {\Large \@date}  % Date
-            \end{center}
-            \newpage
-        }
-        \makeatother
-    ''',
-    'maketitle': '',  # Remove the default maketitle command
+    'maketitle': '\\input{your_over_page.tex}'
 }
 
 root_doc = 'index'
