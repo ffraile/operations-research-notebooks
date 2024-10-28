@@ -75,26 +75,6 @@ latex_elements = {
         \usepackage{svg}
         \usepackage{titlesec}
         \usepackage{xcolor}
-        
-        \usepackage{graphicx}
-        \usepackage{wallpaper}
-        
-        % Define the title and subtitle
-        \title{\textbf{\LARGE{''' + title + '''}}}
-        \newcommand{\subtitle}{\textit{\Large{''' + subtitle + '''}}}
-        
-        % Custom \maketitle with subtitle and optional background image
-        \renewcommand{\maketitle}{
-            \ThisCenterWallPaper{1.0}{_static/cover.jpg} % Optional background image
-            \vspace*{6cm}
-            \begin{center}
-                {\Huge \@title}\\[1em]
-                {\Large \subtitle}\\[2em]  % Adds the subtitle
-                {\Large \textit{\@author}}\\[2cm]
-                {\Large \@date}
-            \end{center}
-            \newpage
-        }
 
         % Customize level 5 (\paragraph) - Same color and size as paragraph text, underlined
         \titleformat{\paragraph}
@@ -107,8 +87,7 @@ latex_elements = {
         % Optional: Control spacing around the headings
         \titlespacing*{\subsubsection}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         \titlespacing*{\paragraph}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
-    ''',
-    'maketitle': ''
+    '''
 }
 
 root_doc = 'index'
