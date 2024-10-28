@@ -70,8 +70,6 @@ nbsphinx_execute = 'never'
 ## Latex engine to support unicode characters
 latex_engine = "lualatex"
 
-latex_additional_files = ["_static/cover.tex"]
-
 latex_elements = {
     'preamble': r'''
         \usepackage{svg}

@@ -1,0 +1,14 @@
+# docker-compose.yml
+version: "3"
+
+services:
+  tex_editor:
+    build: .
+    container_name: tex_editor_container
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - ../docs/:/docs  # Mount the current directory to work with .tex files
+      - /tmp/.X11-unix:/tmp/.X11-unix  # Enable access to X11 for graphical interface
+    network_mode: "host"
+    privileged: true  # Allows access to the X11 socket
