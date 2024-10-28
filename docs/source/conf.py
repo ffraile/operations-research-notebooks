@@ -70,6 +70,7 @@ nbsphinx_execute = 'never'
 ## Latex engine to support unicode characters
 latex_engine = "lualatex"
 
+latex_additional_files = ["_static/cover.tex"]
 
 latex_elements = {
     'preamble': r'''
@@ -89,7 +90,7 @@ latex_elements = {
         \titlespacing*{\subsubsection}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         \titlespacing*{\paragraph}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
     ''',
-    'maketitle': '\\input{docs/source/cover.tex}'
+    'maketitle': '\\input{_static/cover.tex}'
 }
 
 root_doc = 'index'
