@@ -75,6 +75,9 @@ latex_elements = {
         \usepackage{svg}
         \usepackage{titlesec}
         \usepackage{xcolor}
+        
+        \usepackage{graphicx}
+        \usepackage{wallpaper}
 
         % Customize level 5 (\paragraph) - Same color and size as paragraph text, underlined
         \titleformat{\paragraph}
@@ -87,7 +90,20 @@ latex_elements = {
         % Optional: Control spacing around the headings
         \titlespacing*{\subsubsection}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         \titlespacing*{\paragraph}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
-    '''
+        
+        % Custom maketitle for a background-only cover page
+        \renewcommand{\maketitle}{
+            \thispagestyle{empty}  % No header/footer on cover page
+            \begin{titlepage}
+                \centering
+                % Full-page background image
+                \ThisCenterWallPaper{1.0}{_static/book_cover.jpg}  % Path to cover image
+                \vfill  % Ensures proper vertical alignment
+            \end{titlepage}
+            \newpage  % Start a new page after the cover
+        }
+    ''',
+   'maketitle': '',  # Disable the default maketitle
 }
 
 root_doc = 'index'
