@@ -92,7 +92,7 @@ latex_elements = {
         \titlespacing*{\paragraph}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         
         % Custom maketitle for a background-only cover page
-        \renewcommand{\maketitle}{
+        \newcommand{\insertcoverpage}{
             \thispagestyle{empty}  % No header/footer on cover page
             \begin{titlepage}
                 \centering
@@ -103,8 +103,10 @@ latex_elements = {
             \newpage  % Start a new page after the cover
         }
     ''',
-   'maketitle': '',  # Disable the default maketitle
+   'maketitle': '\insertcoverpage',  # Disable the default maketitle
 }
+
+latex_additional_files = ['_static/book_cover.jpg']
 
 root_doc = 'index'
 latex_documents = [
