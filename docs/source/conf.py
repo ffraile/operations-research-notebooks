@@ -71,6 +71,8 @@ nbsphinx_execute = 'never'
 ## Latex engine to support unicode characters
 latex_engine = "lualatex"
 
+cover_image_path = os.path.abspath('_static/book_cover.jpg')
+
 latex_elements = {
     'preamble': r'''
         \usepackage{svg}
@@ -94,14 +96,13 @@ latex_elements = {
         
         % Custom maketitle for a background-only cover page
         \newcommand{\insertcoverpage}{
-            \thispagestyle{empty}  % No header/footer on cover page
+            \thispagestyle{empty}
             \begin{titlepage}
-                \centering
-                % Full-page background image
-                \ThisCenterWallPaper{1.0}{_static/book_cover.jpg}  % Path to cover image
-                \vfill  % Ensures proper vertical alignment
+            \centering
+            \includegraphics[width=\paperwidth,height=\paperheight]{''' + cover_image_path.replace("\\", "/") + r'''}
+            \vfill
             \end{titlepage}
-            \newpage  % Start a new page after the cover
+            \newpage
         }
     ''',
    'maketitle': '\insertcoverpage',  # Disable the default maketitle
