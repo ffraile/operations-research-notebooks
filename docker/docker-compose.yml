@@ -1,14 +1,34 @@
 # docker-compose.yml
-version: "3"
+version: '3'
 
 services:
-  tex_editor:
-    build: .
-    container_name: tex_editor_container
-    environment:
-      - DISPLAY=${DISPLAY}
+  builder:
+    image: readthedocs/build:latest  # Use the official Read the Docs image
+    container_name: tex_builder
+    working_dir: /docs
     volumes:
-      - ../docs/:/docs  # Mount the current directory to work with .tex files
-      - /tmp/.X11-unix:/tmp/.X11-unix  # Enable access to X11 for graphical interface
-    network_mode: "host"
-    privileged: true  # Allows access to the X11 socket
+      - .:/docs  # Mount the current directory to ensure consistent build output
+    command: >
+      /bin/bash -c "
+      python -m sphinx -T -b latex -d _build/doctrees -D language=en . _build/latex &&
+      cd _build/latex &&
+      latexmk -r latexmkrc -pdf -f -dvi- -ps -jobname=operations-research -interaction=nonstopmode
+      "
+    environment:
+      - PYTHONUNBUFFERED=1  # Ensures real-time log output
+
+  editor:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Use the custom Dockerfile for the editor service
+    container_name: tex_editor
+    working_dir: /docs/_build/latex
+    volumes:
+      - ../docs:/docs  # Mounts the directory so _build is accessible
+      - /tmp/.X11-unix:/tmp/.X11-unix  # Allows X11 display forwarding for GUI apps
+    environment:
+      - DISPLAY=${DISPLAY}  # Uses the host's display for TeXstudio
+    network_mode: host  # Needed for GUI apps
+    privileged: true  # Allows access to X11
+    command: texstudio operations-research.tex  # Opens TeXstudio in the build directory
+

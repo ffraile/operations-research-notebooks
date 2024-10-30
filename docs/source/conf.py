@@ -99,7 +99,7 @@ latex_elements = {
             \thispagestyle{empty}
             \begin{titlepage}
             \centering
-            \includegraphics[width=\paperwidth,height=\paperheight]{''' + cover_image_path.replace("\\", "/") + r'''}
+            \ThisCenterWallPaper{1.05}{''' + cover_image_path.replace("\\", "/") + r'''}
             \vfill
             \end{titlepage}
             \newpage
