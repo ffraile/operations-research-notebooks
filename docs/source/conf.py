@@ -102,8 +102,8 @@ latex_elements = {
             \ThisCenterWallPaper{1.05}{''' + cover_image_path.replace("\\", "/") + r'''}
             \vfill
             \end{titlepage}
-            \newpage
-        }
+            \newpage  % Ensure a new page after the cover
+            \cleardoublepage  % Start TOC on a fresh page        }
     ''',
    'maketitle': '\insertcoverpage',  # Disable the default maketitle
 }
