@@ -106,12 +106,12 @@ latex_elements = {
             \ThisCenterWallPaper{1.05}{''' + cover_image_path.replace("\\", "/") + r'''}
             \vfill
             \end{titlepage}
-            \newpage  % Ensure a new page after the cover
+            \cleardoublepage  % Ensure a new page after the cover
         }
     ''',
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
-        \clearpage
+        \cleardoublepage
         % Place the publisher information at the bottom
         \vfill
         \begin{flushleft}
@@ -119,9 +119,7 @@ latex_elements = {
             \textbf{ISBN:} ''' + isbn_number + r'''\\
             \textbf{License:} ''' + license_text + r'''
         \end{flushleft}
-        \clearpage
-        \newpage  % Ensure a new page after the publishing info
-
+        \cleardoublepage
         % Actual Table of Contents
         \sphinxtableofcontents
     '''
