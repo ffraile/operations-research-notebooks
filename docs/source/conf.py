@@ -23,6 +23,10 @@ title = 'Notebooks for Operations Research'
 subtitle = 'A practical guide to operations research with Python'
 copyright = '2024, Francisco Fraile'
 author = 'Francisco Fraile'
+# Publisher information variables
+publisher_name = "Universitat Politècnica de València"
+isbn_number = "TBD"
+license_text = "Notebooks for Operations Research © 2024 by Francisco Fraile is licensed under Creative Commons Attribution 4.0 International"
 
 # The full version, including alpha/beta/rc tags
 release = 'I'
@@ -103,9 +107,24 @@ latex_elements = {
             \vfill
             \end{titlepage}
             \newpage  % Ensure a new page after the cover
-            \cleardoublepage  % Start TOC on a fresh page        }
+        }
     ''',
-   'maketitle': '\insertcoverpage',  # Disable the default maketitle
+   'maketitle': '\insertcoverpage',# Disable the default maketitle
+    'tableofcontents': r'''
+        \clearpage
+        % Place the publisher information at the bottom
+        \vfill
+        \begin{flushleft}
+            \textbf{Publisher:} ''' + publisher_name + r'''\\
+            \textbf{ISBN:} ''' + isbn_number + r'''\\
+            \textbf{License:} ''' + license_text + r'''
+        \end{flushleft}
+        \clearpage
+        \newpage  % Ensure a new page after the publishing info
+
+        % Actual Table of Contents
+        \sphinxtableofcontents
+    '''
 }
 
 latex_additional_files = ['_static/book_cover.jpg']
