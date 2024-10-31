@@ -111,8 +111,14 @@ latex_elements = {
     ''',
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
+        % Workaround: Insert a blank page with whitespace to force separation.
+        % for some stupid reason Sphinx renders this page in the cover page
+        \thispagestyle{empty}
+        \begin{flushleft}
+            \vspace*{\fill}
+            \vspace*{\fill}
+        \end{flushleft}
         \cleardoublepage
-        \phantomsection
         % Place the publisher information at the bottom
         \vfill
         \begin{flushleft}
