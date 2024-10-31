@@ -112,6 +112,7 @@ latex_elements = {
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
         \cleardoublepage
+        \phantomsection
         % Place the publisher information at the bottom
         \vfill
         \begin{flushleft}
