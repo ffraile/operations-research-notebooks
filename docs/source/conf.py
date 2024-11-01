@@ -111,7 +111,7 @@ latex_elements = {
     'extraclassoptions': ',openany,oneside',
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
-        \cleardoublepage  % Ensure a new page after the cover
+        \sphinxbackoftitlepage  % Ensure a new page after the cover
         \mbox{}
         \vfill
         \begin{flushleft}
