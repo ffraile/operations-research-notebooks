@@ -101,25 +101,16 @@ latex_elements = {
         % Custom maketitle for a background-only cover page
         \newcommand{\insertcoverpage}{
             \thispagestyle{empty}
-            \begin{titlepage}
+            \begin{titlingpage}
             \centering
             \ThisCenterWallPaper{1.05}{''' + cover_image_path.replace("\\", "/") + r'''}
             \vfill
-            \end{titlepage}
+            \end{titlingpage}
             \cleardoublepage  % Ensure a new page after the cover
         }
     ''',
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
-        % Workaround: Insert a blank page with whitespace to force separation.
-        % for some stupid reason Sphinx renders this page in the cover page
-        \thispagestyle{empty}
-        \begin{flushleft}
-            \vspace*{\fill}
-            \vspace*{\fill}
-        \end{flushleft}
-        \cleardoublepage
-        % Place the publisher information at the bottom
         \vfill
         \begin{flushleft}
             \textbf{Publisher:} ''' + publisher_name + r'''\\

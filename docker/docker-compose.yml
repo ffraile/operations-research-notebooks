@@ -3,8 +3,9 @@ version: '3'
 
 services:
   builder:
-    image: readthedocs/build:latest  # Use the official Read the Docs image
-    container_name: tex_builder
+    build:
+      context: .
+      dockerfile: Dockerfile  # Use the custom Dockerfile for the editor service    container_name: tex_builder
     working_dir: /docs
     volumes:
       - .:/docs  # Mount the current directory to ensure consistent build output
