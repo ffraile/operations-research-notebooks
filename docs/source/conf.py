@@ -107,12 +107,12 @@ latex_elements = {
             \ThisCenterWallPaper{1.05}{''' + cover_image_path.replace("\\", "/") + r'''}
             \vfill
             \end{titlingpage}
-            \newpage  % Ensure a new page after the cover
         }
     ''',
     'extraclassoptions': ',openany,oneside',
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
+        \newpage  % Ensure a new page after the cover
         \vfill
         \begin{flushleft}
             \textbf{Publisher:} ''' + publisher_name + r'''\\
