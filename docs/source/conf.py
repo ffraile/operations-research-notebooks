@@ -106,9 +106,17 @@ latex_elements = {
             \ThisCenterWallPaper{1.05}{''' + cover_image_path.replace("\\", "/") + r'''}
             \vfill
             \end{titlingpage}
-            \cleardoublepage  % Ensure a new page after the cover
+            \newpage  % Ensure a new page after the cover
+            % Insert an additional blank page to force separation if needed
+            \thispagestyle{empty}
+            \begin{titlepage}
+                \vspace*{\fill}
+                \vspace*{\fill}
+            \end{titlepage}
+            \cleardoublepage
         }
     ''',
+    'classoptions': ',openany,oneside',
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
         \vfill
