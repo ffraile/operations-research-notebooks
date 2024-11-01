@@ -100,7 +100,6 @@ latex_elements = {
         
         % Custom maketitle for a background-only cover page
         \newcommand{\insertcoverpage}{
-            \maketitle
             \thispagestyle{empty}
             \begin{titlingpage}
             \centering
@@ -112,7 +111,8 @@ latex_elements = {
     'extraclassoptions': ',openany,oneside',
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
-        \newpage  % Ensure a new page after the cover
+        \cleardoublepage  % Ensure a new page after the cover
+        \mbox{}
         \vfill
         \begin{flushleft}
             \textbf{Publisher:} ''' + publisher_name + r'''\\
