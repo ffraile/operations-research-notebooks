@@ -100,6 +100,7 @@ latex_elements = {
         
         % Custom maketitle for a background-only cover page
         \newcommand{\insertcoverpage}{
+            \maketitle
             \thispagestyle{empty}
             \begin{titlingpage}
             \centering
@@ -107,16 +108,9 @@ latex_elements = {
             \vfill
             \end{titlingpage}
             \newpage  % Ensure a new page after the cover
-            % Insert an additional blank page to force separation if needed
-            \thispagestyle{empty}
-            \begin{titlepage}
-                \vspace*{\fill}
-                \vspace*{\fill}
-            \end{titlepage}
-            \cleardoublepage
         }
     ''',
-    'classoptions': ',openany,oneside',
+    'extraclassoptions': ',openany,oneside',
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
         \vfill
