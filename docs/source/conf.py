@@ -117,24 +117,23 @@ latex_elements = {
         % Custom maketitle for a background-only cover page
         \makeatletter
         \newcommand{\insertcoverpage}{
-
             \let\sphinxrestorepageanchorsetting\relax
-            \ifHy@pageanchor\def\sphinxrestorepageanchorsetting{\Hy@pageanchortrue}\fi
-            \Hy@pageanchorfalse  % Temporarily disable page anchors
+            \ifHy@pageanchor\def\sphinxrestorepageanchorsetting{\Hy@pageanchortrue}\fi         
+            \hypersetup{pageanchor=false}  % avoid duplicate destination warnings
 
-            
-            \thispagestyle{empty}
             \begin{titlepage}
+                \thispagestyle{empty}
                 \centering
-                \ThisCenterWallPaper{1}{''' + cover_image_path.replace("\\", "/") + r'''}
-                \vfill
+                \newgeometry{top=0pt, bottom=0pt, left=0pt, right=0pt}
+                \includegraphics[width=\paperwidth,height=\paperheight]{''' + cover_image_path.replace("\\", "/") + r'''}
+                \restoregeometry
             \end{titlepage}
             
             \setcounter{footnote}{0} % reset page counter
             \let\thanks\relax\let\maketitle\relax
             \clearpage
             \ifdefined\backoftitlepage\backoftitlepage\fi
-            \clearpage
+            \if@openright\cleardoublepage\else\clearpage\fi
             \sphinxrestorepageanchorsetting
         }
         \makeatother
