@@ -75,7 +75,7 @@ nbsphinx_execute = 'never'
 ## Latex engine to support unicode characters
 latex_engine = "lualatex"
 
-cover_image_path = os.path.abspath('_static/book_cover.jpg')
+cover_image_path = os.path.abspath('_static/book_cover.pdf')
 
 latex_elements = {
     'preamble': r'''
@@ -83,8 +83,7 @@ latex_elements = {
         \usepackage{titlesec}
         \usepackage{xcolor}
         
-        \usepackage{graphicx}
-        \usepackage{wallpaper}
+        \usepackage{pdfpages}
 
         % Customize level 5 (\paragraph) - Same color and size as paragraph text, underlined
         \titleformat{\paragraph}
@@ -122,11 +121,7 @@ latex_elements = {
             \hypersetup{pageanchor=false}  % avoid duplicate destination warnings
 
             \begin{titlepage}
-                \thispagestyle{empty}
-                \centering
-                \newgeometry{top=0pt, bottom=0pt, left=0pt, right=0pt}
-                \includegraphics[width=\paperwidth,height=\paperheight]{''' + cover_image_path.replace("\\", "/") + r'''}
-                \restoregeometry
+                \includepdf{''' + cover_image_path.replace("\\", "/") + r'''}
             \end{titlepage}
             
             \setcounter{footnote}{0} % reset page counter
