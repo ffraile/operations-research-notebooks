@@ -98,19 +98,8 @@ latex_elements = {
         \titlespacing*{\subsubsection}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         \titlespacing*{\paragraph}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         
-        % Custom maketitle for a background-only cover page
-        \newcommand{\insertcoverpage}{
-            \thispagestyle{empty}
-            \begin{titlepage}
-            \centering
-            \ThisCenterWallPaper{1}{''' + cover_image_path.replace("\\", "/") + r'''}
-            \vfill
-            \end{titlepage}
-            \newpage  % Ensure a new page after the cover
-        }
-        
-        % Custom \sphinxbackoftitlepage definition for publisher information
-        \newcommand{\sphinxbackoftitlepage}{
+                % Custom \sphinxbackoftitlepage definition for publisher information
+        \newcommand{\backoftitlepage}{
             \thispagestyle{empty}  % No header/footer on back of title page
             \mbox{}
             \vfill
@@ -124,12 +113,33 @@ latex_elements = {
             % Reset footnote counter
             \setcounter{footnote}{0}%
         }
+        
+        % Custom maketitle for a background-only cover page
+        \newcommand{\insertcoverpage}{
+        
+            \let\sphinxrestorepageanchorsetting\relax
+            \ifHy@pageanchor\def\sphinxrestorepageanchorsetting{\Hy@pageanchortrue}\fi
+            \Hy@pageanchorfalse  % Temporarily disable page anchors
+
+            
+            \thispagestyle{empty}
+            \begin{titlepage}
+                \centering
+                \ThisCenterWallPaper{1}{''' + cover_image_path.replace("\\", "/") + r'''}
+                \vfill
+            \end{titlepage}
+            
+            \setcounter{footnote}{0} % reset page counter
+            \let\thanks\relax\let\maketitle\relax
+            \clearpage
+            \ifdefined\backoftitlepage\backoftitlepage\fi
+            \clearpage
+             \sphinxrestorepageanchorsetting
+        }
     ''',
     'extraclassoptions': ',openany,oneside',
     'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
-        \sphinxbackoftitlepage
-        % Actual Table of Contents
         \sphinxtableofcontents
     '''
 }
