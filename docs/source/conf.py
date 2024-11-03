@@ -128,7 +128,7 @@ latex_elements = {
     'extraclassoptions': ',openany,oneside',
     'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
-        \sphinxbackoftitle
+        \sphinxbackoftitlepage
         % Actual Table of Contents
         \sphinxtableofcontents
     '''
