@@ -102,11 +102,11 @@ latex_elements = {
         \newcommand{\insertcoverpage}{
             \maketitle
             \thispagestyle{empty}
-            \begin{titlingpage}
+            \begin{titlepage}
             \centering
             \ThisCenterWallPaper{1.05}{''' + cover_image_path.replace("\\", "/") + r'''}
             \vfill
-            \end{titlingpage}
+            \end{titlegpage}
             \newpage  % Ensure a new page after the cover
         }
     ''',
