@@ -127,6 +127,11 @@ latex_elements = {
     ''',
     'extraclassoptions': ',openany,oneside',
     'maketitle': '\insertcoverpage',# Disable the default maketitle
+    'tableofcontents': r'''
+        \sphinxbackoftitle
+        % Actual Table of Contents
+        \sphinxtableofcontents
+    '''
 }
 
 latex_additional_files = ['_static/book_cover.jpg']
