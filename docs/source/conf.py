@@ -103,26 +103,30 @@ latex_elements = {
             \thispagestyle{empty}
             \begin{titlepage}
             \centering
-            \ThisCenterWallPaper{1.05}{''' + cover_image_path.replace("\\", "/") + r'''}
+            \ThisCenterWallPaper{1}{''' + cover_image_path.replace("\\", "/") + r'''}
             \vfill
-            \end{titlegpage}
+            \end{titlepage}
             \newpage  % Ensure a new page after the cover
+        }
+        
+        % Custom \sphinxbackoftitlepage definition for publisher information
+        \newcommand{\sphinxbackoftitlepage}{
+            \thispagestyle{empty}  % No header/footer on back of title page
+            \mbox{}
+            \vfill
+            \begin{flushleft}
+                \textbf{Publisher:} ''' + publisher_name + r'''\\
+                \textbf{ISBN:} ''' + isbn_number + r'''\\
+                \textbf{License:} ''' + license_text + r'''
+            \end{flushleft}
+            \vfill
+            \newpage
+            % Reset footnote counter
+            \setcounter{footnote}{0}%
         }
     ''',
     'extraclassoptions': ',openany,oneside',
-   'maketitle': '\insertcoverpage',# Disable the default maketitle
-    'tableofcontents': r'''
-        \mbox{}
-        \vfill
-        \begin{flushleft}
-            \textbf{Publisher:} ''' + publisher_name + r'''\\
-            \textbf{ISBN:} ''' + isbn_number + r'''\\
-            \textbf{License:} ''' + license_text + r'''
-        \end{flushleft}
-        \cleardoublepage
-        % Actual Table of Contents
-        \sphinxtableofcontents
-    '''
+    'maketitle': '\insertcoverpage',# Disable the default maketitle
 }
 
 latex_additional_files = ['_static/book_cover.jpg']
