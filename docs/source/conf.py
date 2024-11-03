@@ -112,7 +112,6 @@ latex_elements = {
     'extraclassoptions': ',openany,oneside',
    'maketitle': '\insertcoverpage',# Disable the default maketitle
     'tableofcontents': r'''
-        \sphinxbackoftitlepage  % Ensure a new page after the cover
         \mbox{}
         \vfill
         \begin{flushleft}
