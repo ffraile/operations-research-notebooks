@@ -98,7 +98,7 @@ latex_elements = {
         \titlespacing*{\subsubsection}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         \titlespacing*{\paragraph}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
         
-                % Custom \sphinxbackoftitlepage definition for publisher information
+        % Custom \sphinxbackoftitlepage definition for publisher information
         \newcommand{\backoftitlepage}{
             \thispagestyle{empty}  % No header/footer on back of title page
             \mbox{}
@@ -115,8 +115,9 @@ latex_elements = {
         }
         
         % Custom maketitle for a background-only cover page
+        \makeatletter
         \newcommand{\insertcoverpage}{
-        
+
             \let\sphinxrestorepageanchorsetting\relax
             \ifHy@pageanchor\def\sphinxrestorepageanchorsetting{\Hy@pageanchortrue}\fi
             \Hy@pageanchorfalse  % Temporarily disable page anchors
@@ -134,8 +135,9 @@ latex_elements = {
             \clearpage
             \ifdefined\backoftitlepage\backoftitlepage\fi
             \clearpage
-             \sphinxrestorepageanchorsetting
+            \sphinxrestorepageanchorsetting
         }
+        \makeatother
     ''',
     'extraclassoptions': ',openany,oneside',
     'maketitle': '\insertcoverpage',# Disable the default maketitle
