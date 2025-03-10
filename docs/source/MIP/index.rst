@@ -53,6 +53,7 @@ In this section you have a collection of CLP problems sorted by difficulty:
     Production Planning (normal graph theory exercise) </MIP/exercises/Production Planning>
     Production Sequencing (normal graph theory) </MIP/exercises/Production Sequencing>
     Planet Express Deliveries (normal transportation problem) </MIP/exercises/Planet Express Deliveries>
+    Earth's Fleet Assignment (normal MIP and graph theory problem) </MIP/exercises/Earth_fleet_assignment>
     3D Printing Precision Parts (normal MIP modeling exercise) </MIP/exercises/3D printing precision parts>
     Spellman's Network Optimization (Normal transportation problem) </MIP/exercises/Spellmans transport>
     Professor's X School Network Optimization (Normal transportation problem) </MIP/exercises/Professor Xavier School for Gifted Youngsters>
