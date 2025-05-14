@@ -25,7 +25,7 @@ Supply chain models provide a framework for understanding and analyzing the vari
 The next section describes the management framework used in the book, consisted of **management levels**, and **business processes** modelling supply chain management.
 
 Management Framework: Supply chain models
-^^^^^^^^^^^^^^^^^^^^^
+__________________________________________
 Business processes
 ^^^^^^^^^^^^^^^^^^
 Business processes represent the group of activities needed to produce goods or services.
@@ -79,6 +79,7 @@ Moreover, as described in the same document referenced above, broadly speaking, 
 
 .. image:: img/AI_and_OR.png
     :alt: AI techniques can be grouped into reasoning and machine learning
+    :width: 50%
 
 - **Reasoning**: These techniques allow an AI system to take as input the data coming from different sources and propose an action to take, given the goal to achieve.
 - **Machine learning**: These techniques allow an AI system to learn how to solve problems that cannot be precisely specified, or whose solution method cannot be described by symbolic reasoning rules.

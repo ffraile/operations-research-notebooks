@@ -10,16 +10,23 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('_static'))
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'Notebooks for Operations Research'
+title = 'Notebooks for Operations Research'
+subtitle = 'A practical guide to operations research with Python'
 copyright = '2024, Francisco Fraile'
 author = 'Francisco Fraile'
+# Publisher information variables
+publisher_name = "Universitat Politècnica de València"
+isbn_number = "TBD"
+license_text = "Notebooks for Operations Research © 2024 by Francisco Fraile is licensed under Creative Commons Attribution 4.0 International"
 
 # The full version, including alpha/beta/rc tags
 release = 'I'
@@ -34,8 +41,8 @@ html_logo = '_static/logo.png'
 # ones.
 extensions = ['nbsphinx', 'myst_parser', 'sphinx_design', 'sphinx_copybutton', 'sphinxext.opengraph']
 
-# Add myst extensions to enable admonitions
-myst_enable_extensions = ["colon_fence", "html_admonition"]
+# Add myst extensions to enable admonitions, and image attributes (e.g. width)
+myst_enable_extensions = ["attrs_inline", "attrs_image", "colon_fence", "html_admonition"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -67,10 +74,73 @@ nbsphinx_execute = 'never'
 
 ## Latex engine to support unicode characters
 latex_engine = "lualatex"
+
+cover_image_path = os.path.abspath('_static/book_cover.pdf')
+
 latex_elements = {
-    "preamble": "\\usepackage{svg}\n"
+    'preamble': r'''
+        \usepackage{svg}
+        \usepackage{titlesec}
+        \usepackage{xcolor}
+        
+        \usepackage{pdfpages}
+
+        % Customize level 5 (\paragraph) - Same color and size as paragraph text, underlined
+        \titleformat{\paragraph}
+            {\normalfont\bfseries\normalsize\color{black}}{\theparagraph}{1em}{}
+            
+        % Customize level 6 (\subparagraph) - Same color and size as paragraph text, underlined
+        \titleformat{\subparagraph}
+            {\normalfont\normalsize\color{black}}{\theparagraph}{1em}{}
+
+        % Optional: Control spacing around the headings
+        \titlespacing*{\subsubsection}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
+        \titlespacing*{\paragraph}{0pt}{1.5ex plus .1ex minus .2ex}{1ex}
+        
+        % Custom \sphinxbackoftitlepage definition for publisher information
+        \newcommand{\backoftitlepage}{
+            \thispagestyle{empty}  % No header/footer on back of title page
+            \mbox{}
+            \vfill
+            \begin{flushleft}
+                \textbf{Publisher:} ''' + publisher_name + r'''\\
+                \textbf{ISBN:} ''' + isbn_number + r'''\\
+                \textbf{License:} ''' + license_text + r'''
+            \end{flushleft}
+            \vfill
+            \newpage
+            % Reset footnote counter
+            \setcounter{footnote}{0}%
+        }
+        
+        % Custom maketitle for a background-only cover page
+        \makeatletter
+        \newcommand{\insertcoverpage}{
+            \let\sphinxrestorepageanchorsetting\relax
+            \ifHy@pageanchor\def\sphinxrestorepageanchorsetting{\Hy@pageanchortrue}\fi         
+            \hypersetup{pageanchor=false}  % avoid duplicate destination warnings
+
+            \begin{titlepage}
+                \includepdf{''' + cover_image_path.replace("\\", "/") + r'''}
+            \end{titlepage}
+            
+            \setcounter{footnote}{0} % reset page counter
+            \let\thanks\relax\let\maketitle\relax
+            \clearpage
+            \ifdefined\backoftitlepage\backoftitlepage\fi
+            \if@openright\cleardoublepage\else\clearpage\fi
+            \sphinxrestorepageanchorsetting
+        }
+        \makeatother
+    ''',
+    'extraclassoptions': ',openany,oneside',
+    'maketitle': '\insertcoverpage',# Disable the default maketitle
+    'tableofcontents': r'''
+        \sphinxtableofcontents
+    '''
 }
 
+latex_additional_files = ['_static/book_cover.jpg']
 
 root_doc = 'index'
 latex_documents = [

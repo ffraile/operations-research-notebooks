@@ -1,10 +1,8 @@
 Simulation and Markov Chains
 =============================================
-This chapter covers some aspects of simulation and its applications in Operations Research.
 
 Tutorials
 __________
-This section contains some basic tutorials:
 
 .. toctree::
     :maxdepth: 2
@@ -13,7 +11,7 @@ This section contains some basic tutorials:
     :titlesonly:
 
     Introduction to Simulation </Simulation/Tutorials/Intro to Simulation>
-    Introduction to Markov chains </Markov Chains/Tutorials/Intro to Markov Chains>
+    Introduction to Markov chains </Simulation/Tutorials/Intro to Markov Chains>
 
 
 
