@@ -17,8 +17,9 @@ This section contains some basic tutorials:
     Continuous Linear Programming introduction </CLP/tutorials/CLP intro>
     Graphic Solution in Python </CLP/tutorials/graphic-solution-extended>
     Interactive Graphic Solution </CLP/tutorials/Graphic solution interactive>
-    Simplex, Graphic explanation </CLP/tutorials/Simplex Graphic explanation>
     Duality </CLP/tutorials/Duality>
+    Simplex, Graphic explanation </CLP/tutorials/Simplex Graphic explanation>
+    Simplex, Interactive Tableau </CLP/tutorials/Simplex - Interactive Tableau>
     Sensitivity - Algebraic explanation </CLP/tutorials/Sensitivity - Algebraic explanation>
     Interactive Sensitivity Analysis </CLP/tutorials/Sensitivity analysis interactive>
 
